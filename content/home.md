@@ -12,5 +12,3 @@ cats:
     name: ahoi cat
 ---
 Welcome to my page about cats of the internet.
-
-This page is built with NextJs and Netlify CMS.
