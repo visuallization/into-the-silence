@@ -1,13 +1,15 @@
 ---
 title: Awesome kittens
 date: 2019-03-17T19:31:20.591Z
-cats: 
+cats:
   - description: 'Maru is a Scottish Fold from Japan, and he loves boxes.'
     name: Maru
-  - description: 'Lil Bub is an American celebrity cat known for her unique appearance.'
+  - description: Lil Bub is an American celebrity cat known for her unique appearance.
     name: Lil Bub
-  - description: 'Grumpy cat is an American celebrity cat known for her grumpy appearance.'
+  - description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
     name: Grumpy Cat
+  - description: ahoi cat was invented by me and is here to test the cms functionality.
+    name: ahoi cat
 ---
 Welcome to my page about cats of the internet.
 
