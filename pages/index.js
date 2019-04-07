@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Menu } from '../src/components';
 import content from '../content/home.md';
 
 import styles from './styles.less';
@@ -9,6 +10,7 @@ class Home extends React.Component {
     const { html, attributes: { title }} = content;
     return (
       <div className={styles.home}>
+        <Menu />
         <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }}/>
         {this.renderCats()}

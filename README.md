@@ -1,2 +1,1 @@
-# into-the-silence
-into the silence website
+# into the silence
