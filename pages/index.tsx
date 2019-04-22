@@ -21,7 +21,7 @@ class Home extends React.Component {
   renderCats = () => {
     const { attributes: { cats }} = content;
 
-    const items = cats.map((cat, key) => (
+    const items = cats.map((cat :any, key: number) => (
       <li key={key}>
         <h2>{cat.name}</h2>
         <p>{cat.description}</p>
