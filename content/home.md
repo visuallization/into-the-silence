@@ -9,5 +9,7 @@ cats:
     name: Grumpy Cat
   - description: ahoi cat was invented by me and is here to test the cms functionality.
     name: ahoi cat
+  - description: she is a real wild one.
+    name: nina cat
 ---
 Welcome to my page about cats of the internet.
