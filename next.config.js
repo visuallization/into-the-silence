@@ -1,7 +1,7 @@
 const withLess = require('@zeit/next-less');
 const withTypescript = require('@zeit/next-typescript');
 const WebpackShellPlugin = require('webpack-shell-plugin');
-const webpack = require('webpack')
+const webpack = require('webpack');
 
 module.exports = withTypescript(
   withLess({
