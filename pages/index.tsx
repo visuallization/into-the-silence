@@ -3,7 +3,7 @@ import React from 'react';
 import { Menu } from '../src/components';
 import content from '../content/home.md';
 
-import styles from './styles.less';
+import styles from '../styles/styles.less';
 
 class Home extends React.Component {
   render() {
