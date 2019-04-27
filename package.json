@@ -21,7 +21,7 @@
     "build:style-typings": "node scripts/generateStyleTypings.js"
   },
   "devDependencies": {
-    "@types/next": "^8.0.3",
+    "@types/next": "^8.0.4",
     "@types/react": "^16.8.14",
     "frontmatter-markdown-loader": "^1.6.0",
     "glob": "^7.1.3",
