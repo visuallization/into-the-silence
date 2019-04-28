@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Menu } from '../src/components';
+import { Menu } from '../components';
 import content from '../content/home.md';
 
 import styles from '../styles/styles.less';

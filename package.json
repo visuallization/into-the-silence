@@ -14,10 +14,10 @@
     "react-dom": "^16.8.6"
   },
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next build && next export",
+    "dev": "next ./src",
+    "build": "next build ./src",
+    "start": "next start ./src",
+    "export": "next build ./src && next export ./src",
     "build:style-typings": "node scripts/generateStyleTypings.js"
   },
   "devDependencies": {
