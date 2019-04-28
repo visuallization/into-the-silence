@@ -11,5 +11,7 @@ cats:
     name: ahoi cat
   - description: she is a real wild one.
     name: nina cat
+  - description: 'zombie was the red cat of my grand mother. he was a lovely bastard. :)'
+    name: zombie cat
 ---
 Welcome to my page about cats of the internet.
