@@ -10,6 +10,7 @@ module.exports = withTypescript(
       importLoaders: 1,
       localIdentName: "[local]___[hash:base64:5]",
     },
+    distDir: '../.next',
     webpack: (cfg) => {
       cfg.module.rules.push(
           {
