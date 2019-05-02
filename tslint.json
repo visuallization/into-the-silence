@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-react"
+  ],
+  "defaultSeverity": "warning",
+  "parserOptions": {
+    "typescript": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "jsx-no-multiline-js": [false],
+    "jsx-boolean-value": [true, "never"],
+    "quotemark": [true, "single", "jsx-double"],
+    "no-param-reassign": [2, { "props": false }],
+    "function-paren-newline": ["error", "consistent"],
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectExpression": { "consistent": true },
+        "ObjectPattern": { "consistent": true }
+      }
+    ],
+    "no-unused-vars": ["error", { "args": "none" }],
+    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
+    "max-len": ["error", 120, 2, {
+        "ignoreUrls": true,
+        "ignoreComments": true,
+        "ignoreRegExpLiterals": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+    }],
+    "import-name": [false],
+    "variable-name": false,
+    "no-this-assignment": false,
+    "object-shorthand-properties-first": false,
+    "semicolon": [true, "always"]
+  }
+}
