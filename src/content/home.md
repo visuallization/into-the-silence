@@ -1,17 +1,9 @@
 ---
-title: Awesome kittens
-cats:
-  - description: 'Maru is a Scottish Fold from Japan, and he loves boxes.'
-    name: Maru
-  - description: Lil Bub is an American celebrity cat known for her unique appearance.
-    name: Lil Bub
-  - description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
-    name: Grumpy Cat
-  - description: ahoi cat was invented by me and is here to test the cms functionality.
-    name: ahoi cat
-  - description: she is a real wild one.
-    name: nina cat
-  - description: 'zombie was the red cat of my grand mother. he was a lovely bastard. :)'
-    name: zombie cat
+title: In die Stille gehen
+methods:
+  - description: Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz, bereichert die Seele und verbindet uns wieder mehr mit uns selbst, mit den anderen, mit der Welt.
+    name: Achtsames Sprechen, und Hören 
+  - description: Es ist eine wunderbare Möglichkeit, um aus dem oft endlosen Strom der Gedanken mit dem nächsten Schritt auszusteigen und im Augenblick anzukommen -vollkommen präsent zu sein.
+    name: Achstames Gehen
 ---
-Welcome to my page about cats of the internet.
+Ein bisschen Text.

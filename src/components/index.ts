@@ -1,5 +1,7 @@
+import Hamburger from './Hamburger';
 import Menu from './Menu';
 
 export {
-  Menu
+  Hamburger,
+  Menu,
 };

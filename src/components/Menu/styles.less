@@ -3,15 +3,39 @@
   color: #EA2E49;
   text-transform: uppercase;
   font-weight: 600;
+}
 
-  ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-  }
-  
+.list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+
   li {
-    margin: 0 34px;
+    margin: 0 30px;
     cursor: pointer;
+  }
+}
+
+.mobile {
+  display: none;
+
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0 25px;
+
+  .logo {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .mobile {
+    display: flex;
+  }
+
+  .list {
+    display: none;
   }
 }

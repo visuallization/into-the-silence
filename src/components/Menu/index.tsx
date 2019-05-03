@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Hamburger } from '../';
 import styles from './styles.less';
 
 const menuItems = [
@@ -14,6 +15,10 @@ class Menu extends React.Component<any, any> {
   render() {
     return(
       <div className={styles.menu}>
+        <div className={styles.mobile}>
+          <span className={styles.logo}>In die Stille gehen</span>
+          <Hamburger/>
+        </div>
         {this.renderMenuItems()}
       </div>
     );
@@ -21,7 +26,7 @@ class Menu extends React.Component<any, any> {
 
   renderMenuItems = () => {
     const items = menuItems.map((item, i) => <li key={i}>{item}</li>);
-    return <ul>{items}</ul>;
+    return <ul className={styles.list}>{items}</ul>;
   }
 }
 

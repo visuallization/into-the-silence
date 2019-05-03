@@ -3,7 +3,7 @@ const glob = require('glob');
 
 const creator = new DtsCreator();
 
-glob('{styles,src}/**/*.less', {}, (error, filePaths) => {
+glob('src/**/*.less', {}, (error, filePaths) => {
   for (const filePath of filePaths) {
     creator.create(filePath)
       .then(content => content.writeFile())

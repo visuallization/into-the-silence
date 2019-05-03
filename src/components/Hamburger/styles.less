@@ -1,0 +1,38 @@
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.line {
+  width: 28px;
+  height: 1px;
+  background-color: #EA2E49;
+
+  transition: transform 0.2s ease-in-out, opacity 0.2s linear, margin 0.2s linear;
+}
+
+.center {
+  margin: 6px 0;
+}
+
+.open {
+  .top {
+    margin-bottom: -1px;
+    transform: rotate(45deg);
+    transition-delay: 0.2s;
+  }
+  
+  .center {
+    margin: 0px;
+    opacity: 0;
+    transition-delay: 0s;
+  }
+  
+  .bottom {
+    margin-top: -1px;
+    transform: rotate(-45deg);
+    transition-delay: 0.2s;
+  }
+}
+
+

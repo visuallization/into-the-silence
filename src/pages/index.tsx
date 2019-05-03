@@ -14,19 +14,19 @@ class Home extends React.Component {
         <div className={styles.content}>
           <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }}/>
-          {this.renderCats()}
+          {this.renderMethods()}
         </div>
       </div>
     );
   }
 
-  renderCats = () => {
-    const { attributes: { cats } } = content;
+  renderMethods = () => {
+    const { attributes: { methods } } = content;
 
-    const items = cats.map((cat :any, key: number) => (
-      <li key={key}>
-        <h2>{cat.name}</h2>
-        <p>{cat.description}</p>
+    const items = methods.map((method: any, i: number) => (
+      <li key={i}>
+        <h2>{method.name}</h2>
+        <p>{method.description}</p>
       </li>
     ));
 
