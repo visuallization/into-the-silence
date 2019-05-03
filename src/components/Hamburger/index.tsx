@@ -4,11 +4,17 @@ import styles from './styles.less';
 
 interface IHamburgerProps {
   className?: string;
+  onToggle(open: boolean): void;
 }
 
-class Hamburger extends React.Component<IHamburgerProps, any> {
+interface IHamburgerState {
+  open: boolean;
+}
+
+class Hamburger extends React.Component<IHamburgerProps, IHamburgerState> {
   static defaultProps = {
     className: '',
+    onToggle: () => {},
   };
 
   constructor(props: any) {
@@ -23,7 +29,7 @@ class Hamburger extends React.Component<IHamburgerProps, any> {
     const { className } = this.props;
     const { open } = this.state;
 
-    return(
+    return (
       <div
         className={`${styles.hamburger} ${className} ${open ? styles.open : ''}`}
         onClick={this.toggle}
@@ -36,9 +42,15 @@ class Hamburger extends React.Component<IHamburgerProps, any> {
   }
 
   toggle = () => {
+    const { onToggle } = this.props;
+    const { open } = this.state;
+    const toggled = !open;
+
     this.setState({
-      open: !this.state.open,
+      open: toggled,
     });
+
+    onToggle(toggled);
   }
 }
 

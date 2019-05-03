@@ -12,12 +12,20 @@ const menuItems = [
 ];
 
 class Menu extends React.Component<any, any> {
+  constructor(props: any) {
+    super(props);
+
+    this.state = {
+      showMobileItems: false,
+    };
+  }
+
   render() {
-    return(
+    return (
       <div className={styles.menu}>
-        <div className={styles.mobile}>
-          <span className={styles.logo}>In die Stille gehen</span>
-          <Hamburger/>
+        <div className={styles.mobileMenu}>
+          <span className={styles.logo}>{menuItems[0]}</span>
+          <Hamburger onToggle={this.showMobileItems} />
         </div>
         {this.renderMenuItems()}
       </div>
@@ -25,8 +33,20 @@ class Menu extends React.Component<any, any> {
   }
 
   renderMenuItems = () => {
+    const { showMobileItems } = this.state;
+
     const items = menuItems.map((item, i) => <li key={i}>{item}</li>);
-    return <ul className={styles.list}>{items}</ul>;
+    return (
+      <ul className={`${styles.list} ${showMobileItems ? styles.mobile : ''}`}>
+        {items}
+      </ul>
+    );
+  }
+
+  showMobileItems = (show: boolean) => {
+    this.setState({
+      showMobileItems: show,
+    });
   }
 }
 
