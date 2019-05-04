@@ -1,7 +1,13 @@
 import React from 'react';
 
 import { Hamburger } from '../';
+
 import styles from './styles.less';
+
+interface IMenuState {
+  showMobileItems: boolean;
+  onTop: boolean;
+}
 
 const menuItems = [
   'In die Stille gehen',
@@ -11,18 +17,31 @@ const menuItems = [
   'Kontakt',
 ];
 
-class Menu extends React.Component<any, any> {
+class Menu extends React.Component<any, IMenuState> {
+  private scrollOffset: number = 200;
+
   constructor(props: any) {
     super(props);
 
     this.state = {
       showMobileItems: false,
+      onTop: true,
     };
   }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.checkScrollPosition);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.checkScrollPosition);
+  }
+
   render() {
+    const { onTop } = this.state;
+
     return (
-      <div className={styles.menu}>
+      <div className={`${styles.menu} ${!onTop ? styles.sticky : ''}`}>
         <div className={styles.mobileMenu}>
           <span className={styles.logo}>{menuItems[0]}</span>
           <Hamburger onToggle={this.showMobileItems} />
@@ -47,6 +66,20 @@ class Menu extends React.Component<any, any> {
     this.setState({
       showMobileItems: show,
     });
+  }
+
+  checkScrollPosition = () => {
+    const { onTop } = this.state;
+
+    if (window.scrollY > this.scrollOffset && onTop) {
+      this.setState({
+        onTop: false,
+      });
+    } else if (window.scrollY <= this.scrollOffset && !onTop) {
+      this.setState({
+        onTop: true,
+      });
+    }
   }
 }
 

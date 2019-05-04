@@ -1,7 +1,16 @@
 .menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
   color: #EA2E49;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.sticky {
+  position: fixed;
+  background: #FFFFFF;
+  animation: slideIn 0.5s;
 }
 
 .list {
@@ -34,7 +43,7 @@
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 935px) {
   .mobileMenu {
     display: flex;
   }
@@ -69,4 +78,9 @@
       max-height: 250px;
     }
   }
+}
+
+@keyframes slideIn {
+  from {transform: translateY(-80px);}
+  to {transform: translateY(0);}
 }
