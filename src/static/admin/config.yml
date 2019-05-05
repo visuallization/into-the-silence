@@ -14,11 +14,17 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - label: "Hero Image"
             name: "hero"
-            widget: "image"
-            default: "src/static/img/hero.jpg"
-            media_library:
-              config:
-                multiple: true
+            widget: "object"
+            fields:
+            - label: "Image"
+              name: "image"
+              widget: "image"
+              default: "src/static/img/hero.jpg"
+              media_library:
+                config:
+                  multiple: true
+            - { label: "Title", name: "title", widget: "string" }
+            - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
           - label: "Methods"
             name: "methods"

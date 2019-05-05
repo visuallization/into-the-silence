@@ -1,8 +1,39 @@
 .heroImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   height: 100vh;
 
   background-size: cover;
   background-repeat: no-repeat;
 
   color: #FFFFFF;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 10px;
+
+    font-weight: 600;
+    font-size: 64px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .heroImage {
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+  }
 }
