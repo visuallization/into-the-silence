@@ -1,7 +1,5 @@
 const withLess = require('@zeit/next-less');
 const withTypescript = require('@zeit/next-typescript');
-const WebpackShellPlugin = require('webpack-shell-plugin');
-const webpack = require('webpack');
 
 module.exports = withTypescript(
   withLess({
@@ -18,13 +16,13 @@ module.exports = withTypescript(
               use: 'frontmatter-markdown-loader'
           }
       );
-      cfg.plugins.push(new WebpackShellPlugin({
-        onBuildStart: ['yarn build:style-typings'],
-        dev: false, // makes sure command runs on file change
-      }))
-      cfg.plugins.push(new webpack.WatchIgnorePlugin([
-        /less\.d\.ts$/
-      ]))
+
+      if (cfg.mode === 'development' && cfg.name === 'client') {
+        cfg.module.rules[2].use[2].loader = require.resolve('typings-for-css-modules-loader');
+        cfg.module.rules[2].use[2].options.namedExport = true;
+        cfg.module.rules[2].use[2].options.camelCase = true;
+      }
+
       return cfg;
     }
   })

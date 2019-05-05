@@ -1,14 +1,10 @@
-declare const styles: {
-  readonly "menu": string;
-  readonly "absolute": string;
-  readonly "hide": string;
-  readonly "slideOut": string;
-  readonly "show": string;
-  readonly "slideIn": string;
-  readonly "menuItems": string;
-  readonly "mobileMenu": string;
-  readonly "logo": string;
-  readonly "mobile": string;
-};
-export = styles;
-
+export const menu: string;
+export const absolute: string;
+export const hide: string;
+export const slideOut: string;
+export const show: string;
+export const slideIn: string;
+export const menuItems: string;
+export const mobileMenu: string;
+export const logo: string;
+export const mobile: string;

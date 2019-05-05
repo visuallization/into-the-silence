@@ -1,10 +1,6 @@
-declare const styles: {
-  readonly "hamburger": string;
-  readonly "line": string;
-  readonly "center": string;
-  readonly "open": string;
-  readonly "top": string;
-  readonly "bottom": string;
-};
-export = styles;
-
+export const hamburger: string;
+export const line: string;
+export const center: string;
+export const open: string;
+export const top: string;
+export const bottom: string;

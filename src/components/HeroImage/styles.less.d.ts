@@ -1,5 +1,1 @@
-declare const styles: {
-  readonly "heroImage": string;
-};
-export = styles;
-
+export const heroImage: string;
