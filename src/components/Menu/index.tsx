@@ -60,7 +60,7 @@ class Menu extends React.Component<any, IMenuState> {
 
     const items = menuItems.map((item, i) => <li key={i}>{item}</li>);
     return (
-      <ul className={`${styles.menuItems} ${showMobileItems ? styles.mobile : ''}`}>
+      <ul className={`${styles.menuItems} ${showMobileItems ? styles.open : ''}`}>
         {items}
       </ul>
     );

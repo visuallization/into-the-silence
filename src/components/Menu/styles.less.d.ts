@@ -7,4 +7,4 @@ export const slideIn: string;
 export const menuItems: string;
 export const mobileMenu: string;
 export const logo: string;
-export const mobile: string;
+export const open: string;

@@ -60,15 +60,14 @@
 
   .menuItems {
     display: flex;
+    flex-direction: column;
 
     max-height: 0;
     transition: max-height 0.2s ease-out;
-
-    flex-direction: column;
     margin: 0;
-    background-color: #FFFFFF;
 
     overflow: hidden;
+    background-color: #FFFFFF;
 
     li {
       padding: 15px 25px;
@@ -76,15 +75,13 @@
       &:first-child {
         display: none;
       }
-      &:last-child {
-        padding-bottom: 30px;
-      }
     }
   }
 
-  .mobile {
+  .open {
     &.menuItems {
       height: auto;
+      padding: 15px 0;
       max-height: 250px;
     }
   }
