@@ -7,16 +7,12 @@ import styles from '../styles/home.less';
 
 class Home extends React.Component {
   render() {
-    const { html, attributes: { title, hero } } = content;
-
+    const { html, attributes: { title } } = content;
     return (
       <div className={styles.home}>
         <Menu />
         <HeroImage
           className={styles.heroImage}
-          src={hero.image}
-          title={hero.title}
-          subtitle={hero.subtitle}
         />
         <div className={styles.content}>
           <h1>{title}</h1>
