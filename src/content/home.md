@@ -1,5 +1,6 @@
 ---
 title: In die Stille gehen
+hero: /static/img/hero.jpg
 methods:
   - description: Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz, bereichert die Seele und verbindet uns wieder mehr mit uns selbst, mit den anderen, mit der Welt.
     name: Achtsames Sprechen, und Hören 

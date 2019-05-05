@@ -24,8 +24,6 @@ const menuItems = [
 ];
 
 class Menu extends React.Component<any, IMenuState> {
-  private scrollOffset: number = 200;
-
   constructor(props: any) {
     super(props);
 
@@ -77,9 +75,9 @@ class Menu extends React.Component<any, IMenuState> {
   setMenuPosition = () => {
     const { position } = this.state;
 
-    if (window.scrollY > this.scrollOffset && position === POSITION.ABSOLUTE) {
+    if (window.scrollY > window.innerHeight && position === POSITION.ABSOLUTE) {
       this.setState({ position: POSITION.SHOW });
-    } else if (window.scrollY <= this.scrollOffset && position === POSITION.SHOW) {
+    } else if (window.scrollY <= window.innerHeight && position === POSITION.SHOW) {
       this.setState(
         { position: POSITION.HIDE },
         () => {

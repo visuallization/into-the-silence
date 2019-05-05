@@ -1,16 +1,17 @@
 import React from 'react';
 
-import { Menu } from '../components';
+import { Menu, HeroImage } from '../components';
 import content from '../content/home.md';
 
 import styles from '../styles/home.less';
 
 class Home extends React.Component {
   render() {
-    const { html, attributes: { title } } = content;
+    const { html, attributes: { title, hero } } = content;
     return (
       <div className={styles.home}>
         <Menu />
+        <HeroImage className={styles.heroImage} src={hero}/>
         <div className={styles.content}>
           <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }}/>

@@ -1,11 +1,30 @@
+@menuHeightOnDesktop: 78px;
+@menuHeightOnMobile: 67px;
+
 .home {
   .content {
     margin: 0 auto;
-    padding: 130px 25px 0 25px;
+    padding: 0 25px;
     max-width: 1000px;
 
     h1 {
       text-transform: uppercase;
+    }
+  }
+
+  .heroImage {
+    margin: @menuHeightOnDesktop 84px;
+    height: calc(100vh - 78px);
+  }
+}
+
+
+
+@media only screen and (max-width: 935px) {
+  .home {
+    .heroImage {
+      margin: @menuHeightOnMobile 0;
+      height: calc(100vh - 67px);
     }
   }
 }

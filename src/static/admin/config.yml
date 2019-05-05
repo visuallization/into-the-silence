@@ -11,6 +11,13 @@ collections:
         file: "src/content/home.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - label: "Hero Image"
+            name: "hero"
+            widget: "image"
+            default: "src/static/img/hero.jpg"
+            media_library:
+              config:
+                multiple: true
           - { label: "Body", name: "body", widget: "markdown" }
           - label: "Methods"
             name: "methods"
