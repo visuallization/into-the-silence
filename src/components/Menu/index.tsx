@@ -6,7 +6,13 @@ import styles from './styles.less';
 
 interface IMenuState {
   showMobileItems: boolean;
-  onTop: boolean;
+  position: POSITION;
+}
+
+enum POSITION {
+  ABSOLUTE = 'absolute',
+  HIDE = 'hide',
+  SHOW = 'show',
 }
 
 const menuItems = [
@@ -25,23 +31,23 @@ class Menu extends React.Component<any, IMenuState> {
 
     this.state = {
       showMobileItems: false,
-      onTop: true,
+      position: POSITION.ABSOLUTE,
     };
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.checkScrollPosition);
+    window.addEventListener('scroll', this.setMenuPosition);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.checkScrollPosition);
+    window.removeEventListener('scroll', this.setMenuPosition);
   }
 
   render() {
-    const { onTop } = this.state;
+    const { position } = this.state;
 
     return (
-      <div className={`${styles.menu} ${!onTop ? styles.sticky : ''}`}>
+      <div className={`${styles.menu} ${styles[position]}`}>
         <div className={styles.mobileMenu}>
           <span className={styles.logo}>{menuItems[0]}</span>
           <Hamburger onToggle={this.showMobileItems} />
@@ -56,7 +62,7 @@ class Menu extends React.Component<any, IMenuState> {
 
     const items = menuItems.map((item, i) => <li key={i}>{item}</li>);
     return (
-      <ul className={`${styles.list} ${showMobileItems ? styles.mobile : ''}`}>
+      <ul className={`${styles.menuItems} ${showMobileItems ? styles.mobile : ''}`}>
         {items}
       </ul>
     );
@@ -68,17 +74,18 @@ class Menu extends React.Component<any, IMenuState> {
     });
   }
 
-  checkScrollPosition = () => {
-    const { onTop } = this.state;
+  setMenuPosition = () => {
+    const { position } = this.state;
 
-    if (window.scrollY > this.scrollOffset && onTop) {
-      this.setState({
-        onTop: false,
-      });
-    } else if (window.scrollY <= this.scrollOffset && !onTop) {
-      this.setState({
-        onTop: true,
-      });
+    if (window.scrollY > this.scrollOffset && position === POSITION.ABSOLUTE) {
+      this.setState({ position: POSITION.SHOW });
+    } else if (window.scrollY <= this.scrollOffset && position === POSITION.SHOW) {
+      this.setState(
+        { position: POSITION.HIDE },
+        () => {
+          setTimeout(() => { this.setState({ position: POSITION.ABSOLUTE }); }, 200);
+        },
+      );
     }
   }
 }
