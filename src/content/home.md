@@ -1,5 +1,9 @@
 ---
 title: In die Stille gehen
+hero:
+  - image:
+  - title:
+  - subtitle:
 methods:
   - description: >-
       Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz,
