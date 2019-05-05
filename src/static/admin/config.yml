@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: src/static/img
+media_folder: /static/img
 collections:
   - name: "pages"
     label: "Pages"
@@ -14,7 +14,7 @@ collections:
           - label: "Hero Image"
             name: "hero"
             widget: "image"
-            default: "src/static/img/hero.jpg"
+            default: "/static/img/hero.jpg"
             media_library:
               config:
                 multiple: true
