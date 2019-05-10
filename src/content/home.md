@@ -4,11 +4,20 @@ hero:
   subtitle: In die eigene Lebendigkeit
   title: In die Stille gehen
 section1:
-  quote: It is our choices, Harry, that show what we truly are, far more than our abilities.
-  author: Albus Dumbledore
-  title: Das ist ein Titel
-  text: Hey ho, das hier ist ein bisschen Text.
-  link: https://cargocollective.com/florentinlucarieger
+  author: Lars Muhl
+  link: 'https://cargocollective.com/florentinlucarieger'
+  quote: >-
+    Listening to the silence... The sure way back to the Holy of Holies,  the
+    bridge to the Plane of Unity, God.
+  text: >-
+    in der Freude an der eigenen Lebendigkeit, im Glück, sich selbst wieder
+    spüren zu können, in der Fülle.   Viele von uns sehnen sich danach, wieder
+    mehr zur Ruhe, zu sich selbst zu kommen. Diese Sehnsucht nach mehr innerem
+    Frieden geht oft Hand in Hand mit dem Wunsch nach mehr Wahrhaftigkeit im
+    eigenen Leben, nach Lebendigkeit.  Eine schöne Möglichkeit, diese Qualitäten
+    in das eigene Leben einzuladen, ist das Gehen durch die Natur, zu zweit, im
+    Gespräch.
+  title: in der eigenen und  umgebenden Natur ankommen
 methods:
   - description: >-
       Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz,
@@ -21,3 +30,4 @@ methods:
       anzukommen -vollkommen präsent zu sein.
     name: Achstames Gehen
 ---
+
