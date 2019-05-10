@@ -24,6 +24,15 @@ collections:
                     multiple: true
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - label: "Section 1"
+            name: "section1"
+            widget: "object"
+            fields:
+              - { label: "Quote", name: "quote", widget: "string" }
+              - { label: "Author", name: "author", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "More Link", name: "link", widget: "string" }
           - label: "Methods"
             name: "methods"
             widget: list

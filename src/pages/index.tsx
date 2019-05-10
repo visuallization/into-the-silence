@@ -7,7 +7,7 @@ import styles from '../styles/home.less';
 
 class Home extends React.Component {
   render() {
-    const { attributes: { hero } } = content;
+    const { attributes: { hero, section1 } } = content;
 
     return (
       <div className={styles.home}>
@@ -22,14 +22,14 @@ class Home extends React.Component {
           <div className={styles.section}>
             <Quote
               className={styles.quote}
-              text={`It is our choices, Harry,
-              that show what what we truly are, far more than our abilities.`}
-              author={'Albus Dumbledore'}
+              text={section1.quote}
+              author={section1.author}
             />
             <ContentBlock
               className={styles.contentBlock}
-              heading={'Hallo'}
-              text={'Hier gibt es ein bisschen Text. Was meinst du?'}
+              heading={section1.title}
+              text={section1.text}
+              link={section1.link}
             />
           </div>
           {this.renderMethods()}
