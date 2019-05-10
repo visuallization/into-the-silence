@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Menu, HeroImage } from '../components';
+import { ContentBlock, HeroImage, Menu, Quote } from '../components';
 import content from '../content/home.md';
 
 import styles from '../styles/home.less';
 
 class Home extends React.Component {
   render() {
-    const { html, attributes: { title, hero } } = content;
+    const { attributes: { hero } } = content;
 
     return (
       <div className={styles.home}>
@@ -19,8 +19,19 @@ class Home extends React.Component {
           subtitle={hero.subtitle}
         />
         <div className={styles.content}>
-          <h1>{title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: html }}/>
+          <div className={styles.section}>
+            <Quote
+              className={styles.quote}
+              text={`It is our choices, Harry,
+              that show what what we truly are, far more than our abilities.`}
+              author={'Albus Dumbledore'}
+            />
+            <ContentBlock
+              className={styles.contentBlock}
+              heading={'Hallo'}
+              text={'Hier gibt es ein bisschen Text. Was meinst du?'}
+            />
+          </div>
           {this.renderMethods()}
         </div>
       </div>

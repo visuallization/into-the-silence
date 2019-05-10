@@ -11,7 +11,6 @@ collections:
         name: "home"
         file: "src/content/home.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - label: "Hero Image"
             name: "hero"
             widget: "object"
@@ -25,7 +24,6 @@ collections:
                     multiple: true
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
           - label: "Methods"
             name: "methods"
             widget: list

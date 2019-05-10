@@ -1,5 +1,4 @@
 ---
-title: In die Stille gehen
 hero:
   image: /static/img/forest_in_japan.jpg
   subtitle: In die eigene Lebendigkeit
@@ -16,4 +15,3 @@ methods:
       anzukommen -vollkommen präsent zu sein.
     name: Achstames Gehen
 ---
-Ein bisschen Text.

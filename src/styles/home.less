@@ -1,26 +1,36 @@
 @menuHeightOnDesktop: 78px;
-@menuHeightOnMobile: 67px;
+@menuHeightOnMobile: 84px;
 
 .home {
+  .heroImage {
+    margin: @menuHeightOnDesktop 84px;
+    height: calc(100vh - 2 * @menuHeightOnDesktop);
+  }
+
   .content {
     margin: 0 auto;
     padding: 0 25px;
     max-width: 1000px;
-
-    h1 {
-      text-transform: uppercase;
-    }
   }
 
-  .heroImage {
-    margin: @menuHeightOnDesktop 84px;
-    height: calc(100vh - 2 * @menuHeightOnDesktop);
+  .section {
+    display: flex;
+    padding-bottom: 64px;
+
+    .quote {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .contentBlock {
+      flex: 1;
+    }
   }
 }
 
 
 
-@media only screen and (max-width: 935px) {
+@media only screen and (max-width: 1046px) {
   .home {
     .heroImage {
       margin: @menuHeightOnMobile 0;
