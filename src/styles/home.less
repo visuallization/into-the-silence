@@ -15,16 +15,16 @@
 
   .section {
     display: flex;
-    padding-bottom: 64px;
+    padding: 0 0 64px 0;
+  }
 
-    .quote {
-      flex: 1;
-      margin-right: 30px;
-    }
+  .quote {
+    flex: 1;
+    margin: 0 30px 0 0;
+  }
 
-    .contentBlock {
-      flex: 1;
-    }
+  .contentBlock {
+    flex: 1;
   }
 }
 
@@ -32,9 +32,29 @@
 
 @media only screen and (max-width: 1046px) {
   .home {
+    .section {
+      padding: 64px 0;
+    }
+
     .heroImage {
-      margin: @menuHeightOnMobile 0;
+      margin: @menuHeightOnMobile 0 0 0;
       height: calc(100vh - @menuHeightOnMobile);
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .home {
+    .section {
+      padding: 54px 0;
+      flex-direction: column;
+    }
+
+    .quote {
+      margin: 0 0 30px 0;
+      p {
+        font-size: 36px;
+      }
     }
   }
 }
