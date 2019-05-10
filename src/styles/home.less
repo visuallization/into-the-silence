@@ -14,7 +14,7 @@
 
   .heroImage {
     margin: @menuHeightOnDesktop 84px;
-    height: calc(100vh - 78px);
+    height: calc(100vh - 2 * @menuHeightOnDesktop);
   }
 }
 
@@ -24,7 +24,7 @@
   .home {
     .heroImage {
       margin: @menuHeightOnMobile 0;
-      height: calc(100vh - 67px);
+      height: calc(100vh - @menuHeightOnMobile);
     }
   }
 }
