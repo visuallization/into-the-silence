@@ -25,8 +25,14 @@ section1:
 section2:
   link: 'https://cargocollective.com/florentinlucarieger'
   text: >-
-    Ein bisschen Text!
-  title: Titel
+    _Mit allen Sinnen wahrnehmen und Fühlen was ist._
+
+
+    Es geht darum, im eigenen inneren Körper anzukommen, aus den
+    Gedankenkreiseln, in denen wir uns gewohnheitsmäßig lange und nicht immer
+    erfolgreich aufhalten, heraus und mit der Aufmerksamkeit in den eigenen
+    Körper, in die eigene Lebendigkeit hinein zu tauchen.
+  title: being present
 methods:
   - description: >-
       Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz,
