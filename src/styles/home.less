@@ -9,13 +9,26 @@
 
   .content {
     margin: 0 auto;
-    padding: 0 25px;
+    width: 100%;
     max-width: 1000px;
+    box-sizing: border-box;
   }
 
   .section {
     display: flex;
-    padding: 0 0 64px 0;
+    padding: 64px 25px;
+
+    &:first-child {
+      padding: 0 25px 64px 25px;
+    }
+
+    &.two {
+      background-color: #FFFFFF;
+
+      .contentBlock {
+        width: 60%;
+      }
+    }
   }
 
   .quote {
@@ -26,19 +39,23 @@
   .contentBlock {
     flex: 1;
   }
+
+  .methods {
+    margin-top: 60px;
+  }
 }
-
-
 
 @media only screen and (max-width: 1046px) {
   .home {
-    .section {
-      padding: 64px 0;
-    }
-
     .heroImage {
       margin: @menuHeightOnMobile 0 0 0;
       height: calc(100vh - @menuHeightOnMobile);
+    }
+
+    .section {
+      &:first-child {
+        padding: 64px 25px;
+      }
     }
   }
 }
@@ -46,8 +63,13 @@
 @media only screen and (max-width: 650px) {
   .home {
     .section {
-      padding: 54px 0;
       flex-direction: column;
+
+      &.two {
+        .contentBlock {
+          width: 100%;
+        }
+      }
     }
 
     .quote {

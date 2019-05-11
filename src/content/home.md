@@ -22,6 +22,11 @@ section1:
     Eine schöne Möglichkeit, diese Qualitäten in das eigene Leben einzuladen,
     ist das Gehen durch die Natur, zu zweit, im Gespräch.
   title: in der eigenen und  umgebenden Natur ankommen
+section2:
+  link: 'https://cargocollective.com/florentinlucarieger'
+  text: >-
+    Ein bisschen Text!
+  title: Titel
 methods:
   - description: >-
       Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz,
