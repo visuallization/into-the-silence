@@ -36,13 +36,18 @@ section2:
 section3:
   image: /static/img/img_1856.jpg
   link: 'https://cargocollective.com/florentinlucarieger'
-  text: "Wieder verbunden, mit der Quelle tief in uns Selbst\r mit der Natur, mit den Menschen, mit allem, was ist\r\n\nEin Abenteuer ist es in jedem Fall!\r Ob wir uns hinaus wagen, in unbekannte Landschaften, auf steile Hänge, in die Natur von Wald und Flusslandschaften eintauchen, unter den schönen alten Bäumen von Schönbrunn gehen und dort immer wieder neues entdecken, oder uns in uns selbst hinein wagen, in scheinbar bekanntes Terrain, nur um fest zu stellen, dass auch in uns immer wieder Überraschungen auf uns warten, entdeckt sein wollen."
+  text: >-
+    _Wieder verbunden, mit der Quelle tief in uns Selbst mit der Natur, mit den
+    Menschen, mit allem, was ist_
+
+
+    Ein Abenteuer ist es in jedem Fall!
+     Ob wir uns hinaus wagen, in unbekannte Landschaften, auf steile Hänge, in die Natur von Wald und Flusslandschaften eintauchen, unter den schönen alten Bäumen von Schönbrunn gehen und dort immer wieder neues entdecken, oder uns in uns selbst hinein wagen, in scheinbar bekanntes Terrain, nur um fest zu stellen, dass auch in uns immer wieder Überraschungen auf uns warten, entdeckt sein wollen.
   title: in die Lebendigkeit in die Natur
 section4:
   link: 'https://cargocollective.com/florentinlucarieger'
-  text: >-
-    Here some text
-  title: A title
+  text: "Stille ist jener Ort, an dem wir mit dem All Einen wieder in Kontakt kommen\r manchmal deutlicher, manchmal weniger deutlich\r die Stille, das Dunkle, das Mysterium, in dem das Licht immer wieder aufs Neue geboren wird\r wo wir den Zugang zu unserer ureigensten Quelle deutlich empfinden\r wo alles gespeichert ist, Erlebtes, Mögliches\r\n\nmanch einer hat diesen Zugang selbstverständlich, aus sich heraus\r\\\nmanch einer wird erst durch schmerzhafte Situationen im Leben darauf gestoßen.\n\nEs ist an der Zeit, all die Gefühle und Empfindungen, die in unserer Kultur so rasch beiseite gedrängt und immer wieder auch abgespalten werden, wahrzunehmen, anzunehmen."
+  title: 'into stillness, into the dark and hidden side oft the soul'
 methods:
   - description: >-
       Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz,
