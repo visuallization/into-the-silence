@@ -34,11 +34,10 @@ section2:
     Körper, in die eigene Lebendigkeit hinein zu tauchen.
   title: being present
 section3:
-  image: /static/img/hero.jpg
+  image: /static/img/img_1856.jpg
   link: 'https://cargocollective.com/florentinlucarieger'
-  text: >-
-    Text text.
-  title: Titel
+  text: "Wieder verbunden, mit der Quelle tief in uns Selbst\r mit der Natur, mit den Menschen, mit allem, was ist\r\n\nEin Abenteuer ist es in jedem Fall!\r Ob wir uns hinaus wagen, in unbekannte Landschaften, auf steile Hänge, in die Natur von Wald und Flusslandschaften eintauchen, unter den schönen alten Bäumen von Schönbrunn gehen und dort immer wieder neues entdecken, oder uns in uns selbst hinein wagen, in scheinbar bekanntes Terrain, nur um fest zu stellen, dass auch in uns immer wieder Überraschungen auf uns warten, entdeckt sein wollen."
+  title: in die Lebendigkeit in die Natur
 methods:
   - description: >-
       Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz,
