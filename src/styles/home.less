@@ -15,17 +15,23 @@
   }
 
   .section {
-    display: flex;
     padding: 64px 25px;
+  }
 
-    &:first-child {
-      padding: 0 25px 64px 25px;
-    }
+  .section1 {
+    display: flex;
+    padding: 0 25px 64px 25px;
   }
 
   .section2 {
     background-color: #FFFFFF;
 
+    .contentBlock {
+      width: 60%;
+    }
+  }
+
+  .section4 {
     .contentBlock {
       width: 60%;
     }
@@ -84,10 +90,8 @@
       height: calc(100vh - @menuHeightOnMobile);
     }
 
-    .section {
-      &:first-child {
-        padding: 64px 25px;
-      }
+    .section1 {
+      padding: 64px 25px;
     }
   }
 }

@@ -54,6 +54,13 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "markdown" }
               - { label: "More Link", name: "link", widget: "string" }
+          - label: "Section 4"
+            name: "section4"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "markdown" }
+              - { label: "More Link", name: "link", widget: "string" }
           - label: "Methods"
             name: "methods"
             widget: list
