@@ -40,6 +40,20 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "markdown" }
               - { label: "More Link", name: "link", widget: "string" }
+          - label: "Section 3"
+            name: "section3"
+            widget: "object"
+            fields:
+              - label: "Background Image"
+                name: "image"
+                widget: "image"
+                default: "src/static/img/hero.jpg"
+                media_library:
+                  config:
+                    multiple: true
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "markdown" }
+              - { label: "More Link", name: "link", widget: "string" }
           - label: "Methods"
             name: "methods"
             widget: list

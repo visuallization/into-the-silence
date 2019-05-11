@@ -21,12 +21,44 @@
     &:first-child {
       padding: 0 25px 64px 25px;
     }
+  }
 
-    &.two {
-      background-color: #FFFFFF;
+  .section2 {
+    background-color: #FFFFFF;
 
-      .contentBlock {
-        width: 60%;
+    .contentBlock {
+      width: 60%;
+    }
+  }
+
+  .section3 {
+    position: relative;
+
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      background-color: #000000;
+      opacity: 0.5;
+    }
+
+    .contentBlock {
+      position: relative;
+      width: 60%;
+      margin: 0 0 0 auto;
+      z-index: 10;
+
+      a {
+        color: #FFFFFF;
       }
     }
   }
@@ -65,10 +97,8 @@
     .section {
       flex-direction: column;
 
-      &.two {
-        .contentBlock {
-          width: 100%;
-        }
+      .contentBlock {
+        width: 100%;
       }
     }
 

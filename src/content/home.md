@@ -33,6 +33,12 @@ section2:
     erfolgreich aufhalten, heraus und mit der Aufmerksamkeit in den eigenen
     Körper, in die eigene Lebendigkeit hinein zu tauchen.
   title: being present
+section3:
+  image: /static/img/hero.jpg
+  link: 'https://cargocollective.com/florentinlucarieger'
+  text: >-
+    Text text.
+  title: Titel
 methods:
   - description: >-
       Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz,
