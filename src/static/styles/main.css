@@ -23,10 +23,35 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+h2 {
+  font-size: 36px;
+  line-height: 1.18;
+
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.42;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
 a {
-  text-decoration: none;
+  color: #EA2E49;
+  text-decoration: underline;
 }
 
 a:visited {
-  color: inherit;
+  color: #EA2E49;
+}
+
+@media only screen and (max-width: 650px) {
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
 }

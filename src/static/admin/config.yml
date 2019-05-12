@@ -65,5 +65,13 @@ collections:
             name: "methods"
             widget: list
             fields: 
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                default: "src/static/img/hero.jpg"
+                media_library:
+                  config:
+                    multiple: true
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
+              - { label: "More Link", name: "link", widget: "string" }

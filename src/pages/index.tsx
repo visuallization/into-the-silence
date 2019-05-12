@@ -74,12 +74,21 @@ class Home extends React.Component {
 
     const items = methods.map((method: any, i: number) => (
       <li key={i}>
-        <h2>{method.name}</h2>
+        <div className={styles.image} style={{ backgroundImage: `url('${method.image}')`}}/>
+        <h3>{method.name}</h3>
         <p>{method.description}</p>
+        <a href={method.link}>mehr</a>
       </li>
     ));
 
-    return <ul className={styles.methods}>{items}</ul>;
+    return (
+      <div className={styles.section5}>
+        <div className={styles.content}>
+          <h2>methoden</h2>
+          <ul className={`${styles.methods}`}>{items}</ul>
+        </div>
+      </div>
+    );
   }
 }
 
