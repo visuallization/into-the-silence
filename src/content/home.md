@@ -7,7 +7,7 @@ section1:
   author: Lars Muhl
   link: 'https://cargocollective.com/florentinlucarieger'
   quote: >-
-    Listening to the silence... The sure way back to the Holy of Holies,  the
+    Listening to the silence... The sure way back to the Holy of Holies, the
     bridge to the Plane of Unity, God.
   text: >-
     _in der Freude an der eigenen Lebendigkeit, im Glück, sich selbst wieder
@@ -42,12 +42,35 @@ section3:
 
 
     Ein Abenteuer ist es in jedem Fall!
-     Ob wir uns hinaus wagen, in unbekannte Landschaften, auf steile Hänge, in die Natur von Wald und Flusslandschaften eintauchen, unter den schönen alten Bäumen von Schönbrunn gehen und dort immer wieder neues entdecken, oder uns in uns selbst hinein wagen, in scheinbar bekanntes Terrain, nur um fest zu stellen, dass auch in uns immer wieder Überraschungen auf uns warten, entdeckt sein wollen.
+
+    Ob wir uns hinaus wagen, in unbekannte Landschaften, auf steile Hänge, in
+    die Natur von Wald und Flusslandschaften eintauchen, unter den schönen alten
+    Bäumen von Schönbrunn gehen und dort immer wieder neues entdecken, oder uns
+    in uns selbst hinein wagen, in scheinbar bekanntes Terrain, nur um fest zu
+    stellen, dass auch in uns immer wieder Überraschungen auf uns warten,
+    entdeckt sein wollen.
   title: in die Lebendigkeit in die Natur
 section4:
   link: 'https://cargocollective.com/florentinlucarieger'
-  text: "Stille ist jener Ort, an dem wir mit dem All Einen wieder in Kontakt kommen\r manchmal deutlicher, manchmal weniger deutlich\r die Stille, das Dunkle, das Mysterium, in dem das Licht immer wieder aufs Neue geboren wird\r wo wir den Zugang zu unserer ureigensten Quelle deutlich empfinden\r wo alles gespeichert ist, Erlebtes, Mögliches\r\n\nmanch einer hat diesen Zugang selbstverständlich, aus sich heraus\r\\\nmanch einer wird erst durch schmerzhafte Situationen im Leben darauf gestoßen.\n\nEs ist an der Zeit, all die Gefühle und Empfindungen, die in unserer Kultur so rasch beiseite gedrängt und immer wieder auch abgespalten werden, wahrzunehmen, anzunehmen."
-  title: 'into stillness, into the dark and hidden side oft the soul'
+  text: >-
+    Stille ist jener Ort, an dem wir mit dem All Einen wieder in Kontakt kommen
+     manchmal deutlicher, manchmal weniger deutlich
+     die Stille, das Dunkle, das Mysterium, in dem das Licht immer wieder aufs Neue geboren wird
+     wo wir den Zugang zu unserer ureigensten Quelle deutlich empfinden
+     wo alles gespeichert ist, Erlebtes, Mögliches
+
+    manch einer hat diesen Zugang selbstverständlich, aus sich heraus
+
+    \
+
+    manch einer wird erst durch schmerzhafte Situationen im Leben darauf
+    gestoßen.
+
+
+    Es ist an der Zeit, all die Gefühle und Empfindungen, die in unserer Kultur
+    so rasch beiseite gedrängt und immer wieder auch abgespalten werden,
+    wahrzunehmen, anzunehmen.
+  title: 'into stillness, into the dark and hidden side of the soul'
 methods:
   - description: >-
       Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz,
@@ -94,8 +117,10 @@ methods:
     link: 'https://cargocollective.com/florentinlucarieger'
     name: 'Archaisches Wissen, lebendige Flamme'
 section5:
-  author: An author
+  author: Eckhart Tolle
+  image: /static/img/img_2146.jpg
   quote: >-
-    A Quote
-  image: /static/img/forest_in_japan.jpg
+    Du musst nicht erst vollkommen werden, sondern brauchst nur ganz das sein,
+    was du schon bist – mit oder ohne Schmerzköper
 ---
+
