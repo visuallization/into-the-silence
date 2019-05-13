@@ -28,7 +28,7 @@ collections:
             name: "section1"
             widget: "object"
             fields:
-              - { label: "Quote", name: "quote", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text" }
               - { label: "Author", name: "author", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "markdown" }
@@ -86,5 +86,5 @@ collections:
                 media_library:
                   config:
                     multiple: true
-              - { label: "Quote", name: "quote", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text" }
               - { label: "Author", name: "author", widget: "string" }
