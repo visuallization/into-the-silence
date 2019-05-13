@@ -7,7 +7,7 @@ import styles from '../styles/home.less';
 
 class Home extends React.Component {
   render() {
-    const { attributes: { hero, section1, section2, section3, section4 } } = content;
+    const { attributes: { hero, section1, section2, section3, section4, section5 } } = content;
 
     return (
       <div className={styles.home}>
@@ -43,7 +43,7 @@ class Home extends React.Component {
             </div>
           </div>
           <div
-            className={`${styles.section} ${styles.section3}`}
+            className={`${styles.section} ${styles.section3} ${styles.backgroundImage}`}
             style={{ backgroundImage: `url('${section3.image}')` }}
           >
             <div className={styles.content}>
@@ -64,6 +64,18 @@ class Home extends React.Component {
             />
           </div>
           {this.renderMethods()}
+          <div
+            className={`${styles.section} ${styles.section5} ${styles.backgroundImage}`}
+            style={{ backgroundImage: `url('${section5.image}')` }}
+          >
+            <div className={styles.content}>
+              <Quote
+                className={styles.quote}
+                text={section5.quote}
+                author={section5.author}
+              />
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -82,9 +94,9 @@ class Home extends React.Component {
     ));
 
     return (
-      <div className={styles.section5}>
+      <div className={styles.methodsContainer}>
         <div className={styles.content}>
-          <h2>methoden</h2>
+          <h2>Methoden</h2>
           <ul className={`${styles.methods}`}>{items}</ul>
         </div>
       </div>

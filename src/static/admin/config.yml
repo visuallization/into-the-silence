@@ -75,3 +75,16 @@ collections:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
               - { label: "More Link", name: "link", widget: "string" }
+          - label: "Section 5"
+            name: "section5"
+            widget: "object"
+            fields:
+              - label: "Background Image"
+                name: "image"
+                widget: "image"
+                default: "src/static/img/hero.jpg"
+                media_library:
+                  config:
+                    multiple: true
+              - { label: "Quote", name: "quote", widget: "string" }
+              - { label: "Author", name: "author", widget: "string" }

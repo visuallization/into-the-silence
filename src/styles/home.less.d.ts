@@ -6,6 +6,8 @@ export const section2: string;
 export const contentBlock: string;
 export const section3: string;
 export const section4: string;
+export const backgroundImage: string;
+export const methodsContainer: string;
 export const section5: string;
 export const quote: string;
 export const methods: string;

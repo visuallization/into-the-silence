@@ -93,5 +93,9 @@ methods:
     image: /static/img/forest_in_japan.jpg
     link: 'https://cargocollective.com/florentinlucarieger'
     name: 'Archaisches Wissen, lebendige Flamme'
+section5:
+  author: An author
+  quote: >-
+    A Quote
+  image: /static/img/forest_in_japan.jpg
 ---
-
