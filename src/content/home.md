@@ -53,11 +53,18 @@ section3:
 section4:
   link: 'https://cargocollective.com/florentinlucarieger'
   text: >-
-    Stille ist jener Ort, an dem wir mit dem All Einen wieder in Kontakt kommen
-     manchmal deutlicher, manchmal weniger deutlich
-     die Stille, das Dunkle, das Mysterium, in dem das Licht immer wieder aufs Neue geboren wird
-     wo wir den Zugang zu unserer ureigensten Quelle deutlich empfinden
-     wo alles gespeichert ist, Erlebtes, Mögliches
+    _Stille ist jener Ort, an dem wir mit dem All Einen wieder in Kontakt kommen
+    manchmal deutlicher, manchmal weniger deutlich_
+
+
+
+    die Stille, das Dunkle, das Mysterium, in dem das Licht immer wieder aufs
+    Neue geboren wird
+
+    wo wir den Zugang zu unserer ureigensten Quelle deutlich empfinden
+
+    wo alles gespeichert ist, Erlebtes, Mögliches
+
 
     manch einer hat diesen Zugang selbstverständlich, aus sich heraus
 
@@ -123,21 +130,9 @@ section5:
     Du musst nicht erst vollkommen werden, sondern brauchst nur ganz das sein,
     was du schon bist – mit oder ohne Schmerzköper
 about:
-  image: /static/img/img_1856.jpg
+  image: /static/img/img_0529.jpg
   link: 'https://cargocollective.com/florentinlucarieger'
-  text: >-
-    _Wieder verbunden, mit der Quelle tief in uns Selbst mit der Natur, mit den
-    Menschen, mit allem, was ist_
-
-
-    Ein Abenteuer ist es in jedem Fall!
-
-    Ob wir uns hinaus wagen, in unbekannte Landschaften, auf steile Hänge, in
-    die Natur von Wald und Flusslandschaften eintauchen, unter den schönen alten
-    Bäumen von Schönbrunn gehen und dort immer wieder neues entdecken, oder uns
-    in uns selbst hinein wagen, in scheinbar bekanntes Terrain, nur um fest zu
-    stellen, dass auch in uns immer wieder Überraschungen auf uns warten,
-    entdeckt sein wollen.
-  title: in die Lebendigkeit in die Natur
+  text: "_Als erstes von drei Kindern bin ich mit meinen Geschwistern mitten in Wien aufgewachsen_. \n\nSo dominierend die Stadt mit ihren hohen Häusern, engen Gassen und vielen Autos auch war, so stark war die schon bald bewusst wahrgenommene Freude am Licht der Sonne, am Himmel selbst, an den Bäumen und Büschen, an Singvögeln und frei lebenden Tieren, wo immer ich sie erleben konnte.\r\n\nDieses große Glück, Natur und ihre Schönheit zu erleben, hat einen tiefen Eindruck hinterlassen.\r\\\nDankbarkeit für die Schöpfung selbst und dafür, selbst Teil der Schöpfung zu sein, begleitet mich Tag für Tag.\r\\\nDie Dankbarkeit und die Freude an der Schönheit zu teilen, ist die treibende Kraft in meinem Tun und Sein.\r\n\n__"
+  title: Über mich und meine Lehrer
 ---
 
