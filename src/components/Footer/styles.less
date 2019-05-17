@@ -1,0 +1,32 @@
+@footerPaddingTop: 15px;
+@footerPaddingLeft: 25px;
+
+.footer {
+  color: #EA2E49;
+
+  .content {
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+
+    padding: @footerPaddingTop @footerPaddingLeft;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.3;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .footer {  
+    .content {
+      justify-content: flex-start;
+    }
+  }
+}

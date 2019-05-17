@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ContentBlock, HeroImage, Menu, Quote } from '../components';
+import { ContentBlock, Footer, HeroImage, Menu, Quote } from '../components';
 import content from '../content/home.md';
 
 import styles from '../styles/home.less';
@@ -77,6 +77,7 @@ class Home extends React.Component {
             </div>
           </div>
           {this.renderAbout()}
+          <Footer />
         </div>
       </div>
     );
@@ -106,6 +107,7 @@ class Home extends React.Component {
 
   renderAbout = () => {
     const { attributes: { about } } = content;
+
     return (
       <div className={`${styles.about}`}>
         <div className={styles.content}>
