@@ -132,7 +132,7 @@ section5:
 about:
   image: /static/img/img_0529.jpg
   link: 'https://cargocollective.com/florentinlucarieger'
-  text: "_Als erstes von drei Kindern bin ich mit meinen Geschwistern mitten in Wien aufgewachsen_. \n\nSo dominierend die Stadt mit ihren hohen Häusern, engen Gassen und vielen Autos auch war, so stark war die schon bald bewusst wahrgenommene Freude am Licht der Sonne, am Himmel selbst, an den Bäumen und Büschen, an Singvögeln und frei lebenden Tieren, wo immer ich sie erleben konnte.\r\n\nDieses große Glück, Natur und ihre Schönheit zu erleben, hat einen tiefen Eindruck hinterlassen.\r\\\nDankbarkeit für die Schöpfung selbst und dafür, selbst Teil der Schöpfung zu sein, begleitet mich Tag für Tag.\r\\\nDie Dankbarkeit und die Freude an der Schönheit zu teilen, ist die treibende Kraft in meinem Tun und Sein.\r\n\n__"
+  text: "_Als erstes von drei Kindern bin ich mit meinen Geschwistern mitten in Wien aufgewachsen_. \n\nSo dominierend die Stadt mit ihren hohen Häusern, engen Gassen und vielen Autos auch war, so stark war die schon bald bewusst wahrgenommene Freude am Licht der Sonne, am Himmel selbst, an den Bäumen und Büschen, an Singvögeln und frei lebenden Tieren, wo immer ich sie erleben konnte.\r\n\nDieses große Glück, Natur und ihre Schönheit zu erleben, hat einen tiefen Eindruck hinterlassen.\nDankbarkeit für die Schöpfung selbst und dafür, selbst Teil der Schöpfung zu sein, begleitet mich Tag für Tag.\nDie Dankbarkeit und die Freude an der Schönheit zu teilen, ist die treibende Kraft in meinem Tun und Sein.\r\n\n"
   title: Über mich und meine Lehrer
 ---
 
