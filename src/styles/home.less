@@ -87,6 +87,27 @@
     }
   }
 
+  .about {
+    background-color: #FFFFFF;
+  }
+
+  .aboutContent {
+    display: flex;
+
+    div {
+      flex: 1;
+    }
+
+    .aboutImage {
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  
+      margin: 0 30px 0 0;
+    }
+  }
+
   .quote {
     flex: 1;
     margin: 0 30px 0 0;
@@ -164,6 +185,18 @@
       grid-column-gap: 0;
 
       .image {
+        margin-left: -@contentPaddingLeft;
+        padding: 0 @contentPaddingLeft;
+      }
+    }
+
+    .aboutContent {
+      flex-direction: column;
+
+      .aboutImage {
+        flex: none;
+        height: 400px;
+
         margin-left: -@contentPaddingLeft;
         padding: 0 @contentPaddingLeft;
       }

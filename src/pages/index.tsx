@@ -76,6 +76,7 @@ class Home extends React.Component {
               />
             </div>
           </div>
+          {this.renderAbout()}
         </div>
       </div>
     );
@@ -98,6 +99,28 @@ class Home extends React.Component {
         <div className={styles.content}>
           <h2>Methoden</h2>
           <ul className={`${styles.methods}`}>{items}</ul>
+        </div>
+      </div>
+    );
+  }
+
+  renderAbout = () => {
+    const { attributes: { about } } = content;
+    return (
+      <div className={`${styles.about}`}>
+        <div className={styles.content}>
+          <h2>{about.title}</h2>
+          <div className={styles.aboutContent}>
+            <div
+              className={`${styles.aboutImage}`}
+              style={{ backgroundImage: `url('${about.image}')` }}
+            />
+            <ContentBlock
+              className={styles.contentBlock}
+              text={about.text}
+              link={about.link}
+            />
+          </div>
         </div>
       </div>
     );

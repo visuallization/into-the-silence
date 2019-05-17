@@ -88,3 +88,17 @@ collections:
                     multiple: true
               - { label: "Quote", name: "quote", widget: "text" }
               - { label: "Author", name: "author", widget: "string" }
+          - label: "About Me"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                default: "src/static/img/hero.jpg"
+                media_library:
+                  config:
+                    multiple: true
+              - { label: "Text", name: "text", widget: "markdown" }
+              - { label: "More Link", name: "link", widget: "string" }
