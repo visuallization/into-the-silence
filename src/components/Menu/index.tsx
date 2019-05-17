@@ -42,10 +42,10 @@ class Menu extends React.Component<any, IMenuState> {
   }
 
   render() {
-    const { position } = this.state;
+    const { position, showMobileItems } = this.state;
 
     return (
-      <div className={`${styles.menu} ${styles[position]}`}>
+      <div className={`${styles.menu} ${styles[position]} ${showMobileItems ? styles.open : ''}`}>
         <div className={styles.mobileMenu}>
           <span className={styles.logo}>{menuItems[0]}</span>
           <Hamburger onToggle={this.showMobileItems} />
@@ -56,11 +56,9 @@ class Menu extends React.Component<any, IMenuState> {
   }
 
   renderMenuItems = () => {
-    const { showMobileItems } = this.state;
-
     const items = menuItems.map((item, i) => <li key={i}>{item}</li>);
     return (
-      <ul className={`${styles.menuItems} ${showMobileItems ? styles.open : ''}`}>
+      <ul className={`${styles.menuItems}`}>
         {items}
       </ul>
     );
