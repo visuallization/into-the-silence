@@ -6,7 +6,7 @@
 
   .content {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
     margin: 0 auto;
     width: 100%;
@@ -16,17 +16,31 @@
     padding: @footerPaddingTop @footerPaddingLeft;
   }
 
+  
+  a {
+    text-decoration: none;
+  }
+
   ul {
+    display: flex;
     padding: 0;
     list-style: none;
     line-height: 1.8;
+
+    li {
+      padding: 0 10px;
+    }
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 682px) {
   .footer {  
     .content {
       justify-content: flex-start;
+    }
+
+    ul {
+      flex-direction: column;
     }
   }
 }
