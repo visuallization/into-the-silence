@@ -5,6 +5,7 @@ import styles from './styles.less';
 interface IHamburgerProps {
   className?: string;
   onToggle(open: boolean): void;
+  open?: boolean;
 }
 
 interface IHamburgerState {
@@ -21,8 +22,14 @@ class Hamburger extends React.Component<IHamburgerProps, IHamburgerState> {
     super(props);
 
     this.state = {
-      open: false,
+      open: props.open || false,
     };
+  }
+
+  componentDidUpdate(prevProps: IHamburgerProps) {
+    if (prevProps.open !== this.props.open) {
+      this.setState({ open: !!this.props.open });
+    }
   }
 
   render() {

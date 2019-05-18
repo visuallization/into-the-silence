@@ -5,7 +5,7 @@ import { Hamburger } from '../';
 import styles from './styles.less';
 
 interface IMenuState {
-  showMobileItems: boolean;
+  open: boolean;
   position: POSITION;
 }
 
@@ -28,27 +28,31 @@ class Menu extends React.Component<any, IMenuState> {
     super(props);
 
     this.state = {
-      showMobileItems: false,
+      open: false,
       position: POSITION.ABSOLUTE,
     };
   }
 
+  private maxWidth: number = 1046;
+
   componentDidMount() {
     window.addEventListener('scroll', this.setMenuPosition);
+    window.addEventListener('resize', this.onResize);
   }
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.setMenuPosition);
+    window.removeEventListener('resize', this.onResize);
   }
 
   render() {
-    const { position, showMobileItems } = this.state;
+    const { position, open } = this.state;
 
     return (
-      <div className={`${styles.menu} ${styles[position]} ${showMobileItems ? styles.open : ''}`}>
+      <div className={`${styles.menu} ${styles[position]} ${open ? styles.open : ''}`}>
         <div className={styles.mobileMenu}>
           <span className={styles.logo}>{menuItems[0]}</span>
-          <Hamburger onToggle={this.showMobileItems} />
+          <Hamburger open={open} onToggle={this.showMobileItems} />
         </div>
         {this.renderMenuItems()}
       </div>
@@ -65,9 +69,21 @@ class Menu extends React.Component<any, IMenuState> {
   }
 
   showMobileItems = (show: boolean) => {
+    if (show) {
+      document.body.className = 'no-scroll';
+    } else {
+      document.body.className = '';
+    }
+
     this.setState({
-      showMobileItems: show,
+      open: show,
     });
+  }
+
+  onResize = () => {
+    if (window.innerWidth > this.maxWidth && this.state.open) {
+      this.showMobileItems(false);
+    }
   }
 
   setMenuPosition = () => {
