@@ -4,6 +4,10 @@ import { Hamburger } from '../';
 
 import styles from './styles.less';
 
+interface IMenuProps {
+  className?: string;
+}
+
 interface IMenuState {
   open: boolean;
   position: POSITION;
@@ -23,7 +27,13 @@ const menuItems = [
   'Kontakt',
 ];
 
-class Menu extends React.Component<any, IMenuState> {
+class Menu extends React.Component<IMenuProps, IMenuState> {
+  private maxWidth: number = 1046;
+
+  static defaultProps = {
+    className: '',
+  };
+
   constructor(props: any) {
     super(props);
 
@@ -32,8 +42,6 @@ class Menu extends React.Component<any, IMenuState> {
       position: POSITION.ABSOLUTE,
     };
   }
-
-  private maxWidth: number = 1046;
 
   componentDidMount() {
     window.addEventListener('scroll', this.setMenuPosition);
@@ -46,10 +54,11 @@ class Menu extends React.Component<any, IMenuState> {
   }
 
   render() {
+    const { className } = this.props;
     const { position, open } = this.state;
 
     return (
-      <div className={`${styles.menu} ${styles[position]} ${open ? styles.open : ''}`}>
+      <div className={`${styles.menu} ${styles[position]} ${open ? styles.open : ''} ${className}`}>
         <div className={styles.mobileMenu}>
           <span className={styles.logo}>{menuItems[0]}</span>
           <Hamburger open={open} onToggle={this.showMobileItems} />

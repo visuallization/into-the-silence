@@ -1,0 +1,54 @@
+@menuHeightOnDesktop: 78px;
+@menuHeightOnMobile: 70px;
+
+@contentPaddingTop: 60px;
+@contentPaddingLeft: 25px;
+
+.contentTemplate {
+  background-color: #FFFFFF;
+  color: #2F2F2F;
+}
+
+.menu {
+  background-color: #FFFFFF;
+}
+
+.content {
+  margin: @menuHeightOnDesktop auto 0 auto;
+  width: 100%;
+  max-width: 1000px;
+
+  padding: @contentPaddingTop @contentPaddingLeft;
+  box-sizing: border-box;
+
+  font-size: 18px;
+
+  h1 {
+    font-size: 48px;
+  }
+
+  img {
+    margin: 42px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    max-width: 570px;
+  }
+
+  .intro {
+    max-width: 725px;
+    margin: 27px 0 0 0;
+  
+    font-style: italic;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 1046px) {
+  .content {
+    margin: @menuHeightOnMobile auto 0 auto;
+  }
+}

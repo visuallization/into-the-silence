@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import Link from 'next/link';
 
 import styles from './styles.less';
 
@@ -23,7 +24,7 @@ class ContentBlock extends React.Component<IContentBlockProps, {}> {
       <div className={`${styles.contenBlock} ${className}`}>
         {this.renderHeading()}
         <ReactMarkdown source={text}/>
-        <a href={link}>mehr</a>
+        <Link href={link}><a>mehr</a></Link>
       </div>
     );
   }

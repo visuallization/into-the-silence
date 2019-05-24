@@ -1,4 +1,5 @@
 import ContentBlock from './ContentBlock';
+import ContentTemplate from './ContentTemplate';
 import Footer from './Footer';
 import Hamburger from './Hamburger';
 import HeroImage from './HeroImage';
@@ -7,6 +8,7 @@ import Quote from './Quote';
 
 export {
   ContentBlock,
+  ContentTemplate,
   Footer,
   Hamburger,
   HeroImage,

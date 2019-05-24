@@ -5,7 +5,7 @@ hero:
   title: In die Stille gehen
 section1:
   author: Lars Muhl
-  link: 'https://cargocollective.com/florentinlucarieger'
+  link: '/about'
   quote: >-
     Listening to the silence... The sure way back to the Holy of Holies, the
     bridge to the Plane of Unity, God.
@@ -23,7 +23,7 @@ section1:
     ist das Gehen durch die Natur, zu zweit, im Gespräch.
   title: in der eigenen und  umgebenden Natur ankommen
 section2:
-  link: 'https://cargocollective.com/florentinlucarieger'
+  link: '/about'
   text: >-
     _Mit allen Sinnen wahrnehmen und Fühlen was ist._
 
@@ -35,7 +35,7 @@ section2:
   title: being present
 section3:
   image: /static/img/img_1856.jpg
-  link: 'https://cargocollective.com/florentinlucarieger'
+  link: '/about'
   text: >-
     _Wieder verbunden, mit der Quelle tief in uns Selbst mit der Natur, mit den
     Menschen, mit allem, was ist_
@@ -51,7 +51,7 @@ section3:
     entdeckt sein wollen.
   title: in die Lebendigkeit in die Natur
 section4:
-  link: 'https://cargocollective.com/florentinlucarieger'
+  link: '/about'
   text: >-
     _Stille ist jener Ort, an dem wir mit dem All Einen wieder in Kontakt kommen
     manchmal deutlicher, manchmal weniger deutlich_
@@ -85,28 +85,28 @@ methods:
       anderen, mit der Welt.
     image: >-
       /static/img/woman-holding-hands-little-girl-boy-walking-sunlit-woodland-autumn-6448-1024x683.jpg
-    link: 'https://cargocollective.com/florentinlucarieger'
+    link: '/about'
     name: 'Achtsames Sprechen, und Hören'
   - description: >-
       Es ist eine wunderbare Möglichkeit, um aus dem oft endlosen Strom der
       Gedanken mit dem nächsten Schritt auszusteigen und im Augenblick
       anzukommen -vollkommen präsent zu sein.
     image: /static/img/walking.jpg
-    link: 'https://cargocollective.com/florentinlucarieger'
+    link: '/about'
     name: Achstames Gehen
   - description: >-
       Eine schöne Art, die innere Bewegung im Außen sichtbar zu machen, diesen
       Prozess achtsam wahr zu nehmen und zu begleiten, bietet das Format von
       Authentic Movement.
     image: /static/img/authentic_movement.jpg
-    link: 'https://cargocollective.com/florentinlucarieger'
+    link: '/about'
     name: Achtsames Bewegen Authentic Movement
   - description: >-
       Es ist ein solches Glück, zusammen mit der Musik im Körper, auf dem Boden
       dieser Erde und zusammen mit den anderen wunderbaren Mittänzerinnen und
       Tänzern zu sein, dass es dafür im Grunde keine Worte gibt!
     image: /static/img/dance.jpg
-    link: 'https://cargocollective.com/florentinlucarieger'
+    link: '/about'
     name: Tanzen & Kreistänze
   - description: >-
       Gemeinsames Singen einfacher Lieder und Mantren ist immer wieder
@@ -114,14 +114,14 @@ methods:
       den Einen Augenblick, in das Verbunden Sein mit sich selbst und den
       anderen.
     image: /static/img/sing.jpg
-    link: 'https://cargocollective.com/florentinlucarieger'
+    link: '/about'
     name: Heilsames Singen
   - description: >-
       Kleine Rituale zur Reinigung können das Bewusstmachen unterstützen und die
       förderlichen Gedanken und Energien, die jeder Zeit mit und um uns sind,
       aktiv in das eigene Leben, in den Moment einladen.
     image: /static/img/forest_in_japan.jpg
-    link: 'https://cargocollective.com/florentinlucarieger'
+    link: '/about'
     name: 'Archaisches Wissen, lebendige Flamme'
 section5:
   author: Eckhart Tolle
@@ -131,7 +131,7 @@ section5:
     was du schon bist – mit oder ohne Schmerzköper
 about:
   image: /static/img/img_0529.jpg
-  link: 'https://cargocollective.com/florentinlucarieger'
+  link: '/about'
   text: "_Als erstes von drei Kindern bin ich mit meinen Geschwistern mitten in Wien aufgewachsen_. \n\nSo dominierend die Stadt mit ihren hohen Häusern, engen Gassen und vielen Autos auch war, so stark war die schon bald bewusst wahrgenommene Freude am Licht der Sonne, am Himmel selbst, an den Bäumen und Büschen, an Singvögeln und frei lebenden Tieren, wo immer ich sie erleben konnte.\r\n\nDieses große Glück, Natur und ihre Schönheit zu erleben, hat einen tiefen Eindruck hinterlassen.\nDankbarkeit für die Schöpfung selbst und dafür, selbst Teil der Schöpfung zu sein, begleitet mich Tag für Tag.\nDie Dankbarkeit und die Freude an der Schönheit zu teilen, ist die treibende Kraft in meinem Tun und Sein.\r\n\n"
   title: Über mich und meine Lehrer
 ---

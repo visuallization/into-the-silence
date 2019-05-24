@@ -1,12 +1,15 @@
 backend:
   name: git-gateway
   branch: master
+
 media_folder: "src/static/img"
 public_folder: "/static/img"
+
 collections:
   - name: "pages"
     label: "Pages"
     files:
+
       - label: "Home"
         name: "home"
         file: "src/content/home.md"
@@ -102,3 +105,18 @@ collections:
                     multiple: true
               - { label: "Text", name: "text", widget: "markdown" }
               - { label: "More Link", name: "link", widget: "string" }
+              
+      - label: "About"
+        name: "about"
+        file: "src/content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro Text", name: "intro", widget: "string" }
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            default: "src/static/img/hero.jpg"
+            media_library:
+              config:
+                multiple: true
+          - { label: "Text", name: "text", widget: "markdown" }
