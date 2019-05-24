@@ -111,7 +111,7 @@ collections:
         file: "src/content/about.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Intro Text", name: "intro", widget: "string" }
+          - { label: "Intro Text", name: "intro", widget: "text" }
           - label: "Image"
             name: "image"
             widget: "image"

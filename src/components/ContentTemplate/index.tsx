@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
+import Footer from '../Footer';
 import Menu from '../Menu';
 
 import styles from './styles.less';
@@ -24,6 +25,7 @@ class ContentTemplate extends React.Component<IContentTemplateProps, {}> {
           <img src={image} />
           <ReactMarkdown source={text}/>
         </div>
+        <Footer />
       </div>
     );
   }
