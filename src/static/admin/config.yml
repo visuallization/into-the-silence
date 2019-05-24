@@ -120,3 +120,18 @@ collections:
               config:
                 multiple: true
           - { label: "Text", name: "text", widget: "markdown" }
+          - label: "Content"
+            name: "content"
+            widget: "list"
+            types:
+              - label: "Text"
+                name: "text"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "markdown" }
+              - label: "Quote"
+                name: "quote"
+                widget: "object"
+                fields: 
+                  - { label: "Quote", name: "quote", widget: "text"}
+                  - { label: "Author", name: "author", widget: "string" }
