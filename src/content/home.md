@@ -49,7 +49,7 @@ section3:
     in uns selbst hinein wagen, in scheinbar bekanntes Terrain, nur um fest zu
     stellen, dass auch in uns immer wieder Überraschungen auf uns warten,
     entdeckt sein wollen.
-  title: In die Lebendigkeit in die Natur
+  title: 'In die Lebendigkeit, in die Natur'
 section4:
   link: /about
   text: >-
