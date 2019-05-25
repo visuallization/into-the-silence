@@ -30,23 +30,23 @@ enum Type {
 const menuItems = [
   {
     name: 'In die Stille gehen',
-    link: '/',
+    link: '/#home',
   },
   {
     name: 'In die eigene Lebendigkeit',
-    link: '/',
+    link: '/#liveliness',
   },
   {
     name: 'Methoden',
-    link: '/',
+    link: '/#methods',
   },
   {
     name: 'Über mich & meine Lehrer',
-    link: '/',
+    link: '/#about',
   },
   {
     name: 'Kontakt',
-    link: '/',
+    link: '/#contact',
   },
 ];
 
