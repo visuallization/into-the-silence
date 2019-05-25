@@ -119,7 +119,6 @@ collections:
             media_library:
               config:
                 multiple: true
-          - { label: "Text", name: "text", widget: "markdown" }
           - label: "Content"
             name: "content"
             widget: "list"
