@@ -59,7 +59,7 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
     return (
       <div className={`${styles.menu} ${styles[position]} ${open ? styles.open : ''} ${className}`}>
         <div className={styles.mobileMenu}>
-          <span className={styles.logo}>
+          <span className={styles.logo} onClick={this.closeMobileItems}>
             <Link href={items[0].link}><a>{items[0].name}</a></Link>
           </span>
           <Hamburger open={open} onToggle={this.showMobileItems} />
@@ -73,7 +73,7 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
     const { items } = this.props;
 
     const menuItems = items.map((item, i) => (
-      <li key={i}>
+      <li key={i} onClick={this.closeMobileItems}>
         <Link href={item.link}><a>{item.name}</a></Link>
       </li>
     ));
@@ -95,6 +95,10 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
     this.setState({
       open: show,
     });
+  }
+
+  closeMobileItems = () => {
+    this.showMobileItems(false);
   }
 
   onResize = () => {
