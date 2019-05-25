@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import { Hamburger } from '../';
 
@@ -6,6 +7,12 @@ import styles from './styles.less';
 
 interface IMenuProps {
   className?: string;
+  items: IMenuItem[];
+}
+
+interface IMenuItem {
+  name: string;
+  link: string;
 }
 
 interface IMenuState {
@@ -18,14 +25,6 @@ enum POSITION {
   HIDE = 'hide',
   SHOW = 'show',
 }
-
-const menuItems = [
-  'In die Stille gehen',
-  'In die eigene Lebendigkeit',
-  'Methoden',
-  'Über mich & meine Lehrer',
-  'Kontakt',
-];
 
 class Menu extends React.Component<IMenuProps, IMenuState> {
   private maxWidth: number = 1046;
@@ -54,13 +53,15 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
   }
 
   render() {
-    const { className } = this.props;
+    const { className, items } = this.props;
     const { position, open } = this.state;
 
     return (
       <div className={`${styles.menu} ${styles[position]} ${open ? styles.open : ''} ${className}`}>
         <div className={styles.mobileMenu}>
-          <span className={styles.logo}>{menuItems[0]}</span>
+          <span className={styles.logo}>
+            <Link href={items[0].link}><a>{items[0].name}</a></Link>
+          </span>
           <Hamburger open={open} onToggle={this.showMobileItems} />
         </div>
         {this.renderMenuItems()}
@@ -69,10 +70,17 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
   }
 
   renderMenuItems = () => {
-    const items = menuItems.map((item, i) => <li key={i}>{item}</li>);
+    const { items } = this.props;
+
+    const menuItems = items.map((item, i) => (
+      <li key={i}>
+        <Link href={item.link}><a>{item.name}</a></Link>
+      </li>
+    ));
+
     return (
       <ul className={`${styles.menuItems}`}>
-        {items}
+        {menuItems}
       </ul>
     );
   }

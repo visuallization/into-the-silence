@@ -27,13 +27,36 @@ enum Type {
   quote = 'quote',
 }
 
+const menuItems = [
+  {
+    name: 'In die Stille gehen',
+    link: '/',
+  },
+  {
+    name: 'In die eigene Lebendigkeit',
+    link: '/',
+  },
+  {
+    name: 'Methoden',
+    link: '/',
+  },
+  {
+    name: 'Über mich & meine Lehrer',
+    link: '/',
+  },
+  {
+    name: 'Kontakt',
+    link: '/',
+  },
+];
+
 class ContentTemplate extends React.Component<IContentTemplateProps, {}> {
   render() {
     const { title, intro, image } = this.props;
 
     return (
       <div className={styles.contentTemplate}>
-        <Menu className={styles.menu} />
+        <Menu className={styles.menu} items={menuItems} />
         <div className={styles.content}>
           <h1>{title}</h1>
           <p className={styles.intro}>{intro}</p>

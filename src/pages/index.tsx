@@ -5,13 +5,36 @@ import content from '../content/home.md';
 
 import styles from '../styles/home.less';
 
+const menuItems = [
+  {
+    name: 'In die Stille gehen',
+    link: '#home',
+  },
+  {
+    name: 'In die eigene Lebendigkeit',
+    link: '#liveliness',
+  },
+  {
+    name: 'Methoden',
+    link: '#methods',
+  },
+  {
+    name: 'Über mich & meine Lehrer',
+    link: '#about',
+  },
+  {
+    name: 'Kontakt',
+    link: '#contact',
+  },
+];
+
 class Home extends React.Component {
   render() {
     const { attributes: { hero, section1, section2, section3, section4, section5 } } = content;
 
     return (
-      <div className={styles.home}>
-        <Menu />
+      <div id="home" className={styles.home}>
+        <Menu items={menuItems} />
         <HeroImage
           className={styles.heroImage}
           src={hero.image}
@@ -43,6 +66,7 @@ class Home extends React.Component {
             </div>
           </div>
           <div
+            id="liveliness"
             className={`${styles.section} ${styles.section3} ${styles.backgroundImage}`}
             style={{ backgroundImage: `url('${section3.image}')` }}
           >
@@ -77,7 +101,7 @@ class Home extends React.Component {
             </div>
           </div>
           {this.renderAbout()}
-          <Footer />
+          <Footer id="contact" />
         </div>
       </div>
     );
@@ -96,7 +120,7 @@ class Home extends React.Component {
     ));
 
     return (
-      <div className={styles.methodsContainer}>
+      <div id="methods" className={styles.methodsContainer}>
         <div className={styles.content}>
           <h2>Methoden</h2>
           <ul className={`${styles.methods}`}>{items}</ul>
@@ -109,7 +133,7 @@ class Home extends React.Component {
     const { attributes: { about } } = content;
 
     return (
-      <div className={`${styles.about}`}>
+      <div id="about" className={`${styles.about}`}>
         <div className={styles.content}>
           <h2>{about.title}</h2>
           <div className={styles.aboutContent}>
