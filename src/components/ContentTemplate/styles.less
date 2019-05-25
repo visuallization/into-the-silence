@@ -26,46 +26,35 @@
     font-size: 48px;
   }
 
-  h2 {
-    margin-top: 45px;
-  }
-
   img {
     margin: 42px 0;
     width: 100%;
     height: auto;
   }
+}
+
+.intro {
+  max-width: 725px;
+  margin: 27px 0 0 0;
+
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.markdown {
+  h2 {
+    margin-top: 45px;
+  }
 
   p {
     max-width: 570px;
   }
+}
 
-  blockquote {
-    color: #EA2E49;
-    margin: 20px 0;
-  
-    font-family: 'Work Sans';
-    font-weight: 300;
-
-    max-width: 715px;
-    margin: 80px 0 80px auto;
-
-    p {
-      max-width: 100%;
-      margin: 0;
-      font-size: 48px;
-      line-height: 1.18;
-    }
-  }
-
-  .intro {
-    max-width: 725px;
-    margin: 27px 0 0 0;
-  
-    font-style: italic;
-    font-size: 24px;
-    line-height: 1.5;
-  }
+.quote {
+  max-width: 715px;
+  margin: 80px 0 80px auto;
 }
 
 @media only screen and (max-width: 1046px) {
@@ -94,12 +83,8 @@
       font-size: 36px;
     }
 
-    blockquote {
+    .quote {
       margin: 30px auto;
-
-      p {
-        font-size: 36px;
-      }
     }
   }
 }
