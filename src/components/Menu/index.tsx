@@ -8,6 +8,7 @@ import styles from './styles.less';
 interface IMenuProps {
   className?: string;
   items: IMenuItem[];
+  scrollOnClick?: boolean;
 }
 
 interface IMenuItem {
@@ -31,6 +32,7 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
 
   static defaultProps = {
     className: '',
+    scrollOnClick: false,
   };
 
   constructor(props: any) {
@@ -98,15 +100,17 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
   }
 
   closeMobileItems = (e: React.SyntheticEvent) => {
+    const { scrollOnClick } = this.props;
+
     const anchor = e.currentTarget;
     const href = anchor.getAttribute('href') || '';
-    console.log('HREF:', href);
 
-    if (href.indexOf('#') === 0) {
+    if (scrollOnClick) {
       e.preventDefault();
       e.stopPropagation();
 
-      (document.querySelector(href) as HTMLElement).scrollIntoView({
+      // strip "/" as it gets added by default on next export
+      (document.querySelector(href.replace('/', '')) as HTMLElement).scrollIntoView({
         behavior: 'smooth',
       });
     }
