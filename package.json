@@ -12,7 +12,8 @@
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-markdown": "^4.0.8"
+    "react-markdown": "^4.0.8",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
     "dev": "next ./src",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@types/next": "^8.0.4",
     "@types/react": "^16.8.14",
+    "@types/smoothscroll-polyfill": "^0.3.1",
     "frontmatter-markdown-loader": "^1.6.0",
     "tslint": "^5.16.0",
     "tslint-config-airbnb": "^5.11.1",
