@@ -1,5 +1,5 @@
 @menuHeightOnDesktop: 78px;
-@menuHeightOnMobile: 70px;
+@menuHeightOnMobile: 69px;
 
 @contentPaddingTop: 60px;
 @contentPaddingLeft: 25px;
@@ -7,7 +7,6 @@
 .contentTemplate {
   background-color: #FFFFFF;
   color: #2F2F2F;
-  font-size: 18px;
 }
 
 .menu {
@@ -15,12 +14,14 @@
 }
 
 .content {
-  margin: @menuHeightOnDesktop auto 0 auto;
   width: 100%;
   max-width: 1000px;
 
+  margin: @menuHeightOnDesktop auto 0 auto;
   padding: @contentPaddingTop @contentPaddingLeft;
   box-sizing: border-box;
+
+  font-size: 18px;
 
   h1 {
     font-size: 48px;
@@ -64,12 +65,9 @@
 }
 
 @media only screen and (max-width: 650px) {
-  .contentTemplate {
-    font-size: 16px;
-  }
-
   .content {
     padding: 30px @contentPaddingLeft;
+    font-size: 16px;
 
     .intro {
       font-size: 16px;
