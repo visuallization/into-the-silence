@@ -100,6 +100,7 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
   closeMobileItems = (e: React.SyntheticEvent) => {
     const anchor = e.currentTarget;
     const href = anchor.getAttribute('href') || '';
+    console.log('HREF:', href);
 
     if (href.indexOf('#') === 0) {
       e.preventDefault();
