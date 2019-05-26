@@ -1,4 +1,5 @@
 ---
+name: about
 title: Über mich und meine Lehrer
 intro: >-
   Es geht darum, im eigenen inneren Körper anzukommen, aus den Gedankenkreiseln,

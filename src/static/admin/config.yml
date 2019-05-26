@@ -105,35 +105,6 @@ collections:
                     multiple: true
               - { label: "Text", name: "text", widget: "markdown" }
               - { label: "More Link", name: "link", widget: "string" }
-              
-      - label: "About"
-        name: "about"
-        file: "src/content/about.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Intro Text", name: "intro", widget: "text" }
-          - label: "Image"
-            name: "image"
-            widget: "image"
-            default: "src/static/img/hero.jpg"
-            media_library:
-              config:
-                multiple: true
-          - label: "Content"
-            name: "content"
-            widget: "list"
-            types:
-              - label: "Text"
-                name: "text"
-                widget: "object"
-                fields:
-                  - { label: "Text", name: "text", widget: "markdown" }
-              - label: "Quote"
-                name: "quote"
-                widget: "object"
-                fields: 
-                  - { label: "Quote", name: "quote", widget: "text"}
-                  - { label: "Author", name: "author", widget: "string" }
 
   - label: "Blog"
     name: "blog"

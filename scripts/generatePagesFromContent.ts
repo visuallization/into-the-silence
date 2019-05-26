@@ -11,8 +11,7 @@ fs.readdir(path.resolve(__dirname, '../src/content/blog'), (err, data) => {
   data.forEach((file) => {
     const fileName = file.replace(/\.[^/.]+$/, '');
 
-    const fileContent = `
-import React from 'react';
+    const fileContent = `import React from 'react';
 
 import { ContentTemplate } from '../components';
 import content from '../content/blog/${fileName}.md';
