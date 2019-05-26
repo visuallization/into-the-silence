@@ -134,3 +134,11 @@ collections:
                 fields: 
                   - { label: "Quote", name: "quote", widget: "text"}
                   - { label: "Author", name: "author", widget: "string" }
+
+  - label: "Blog"
+    name: "blog"
+    folder: "src/content/blog"
+    create: true
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
