@@ -42,7 +42,7 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "markdown" }
-              - { label: "More Link", name: "link", widget: "string" }
+              - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
           - label: "Section 3"
             name: "section3"
             widget: "object"
@@ -56,14 +56,14 @@ collections:
                     multiple: true
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "markdown" }
-              - { label: "More Link", name: "link", widget: "string" }
+              - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
           - label: "Section 4"
             name: "section4"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "markdown" }
-              - { label: "More Link", name: "link", widget: "string" }
+              - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
           - label: "Methods"
             name: "methods"
             widget: list
@@ -77,7 +77,7 @@ collections:
                     multiple: true
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-              - { label: "More Link", name: "link", widget: "string" }
+              - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
           - label: "Section 5"
             name: "section5"
             widget: "object"
@@ -104,7 +104,7 @@ collections:
                   config:
                     multiple: true
               - { label: "Text", name: "text", widget: "markdown" }
-              - { label: "More Link", name: "link", widget: "string" }
+              - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
 
   - label: "Blog"
     name: "blog"
