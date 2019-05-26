@@ -112,7 +112,7 @@ class Home extends React.Component {
 
     const items = methods.map((method: any, i: number) => (
       <li key={i}>
-        <div className={styles.image} style={{ backgroundImage: `url('${method.image}')`}}/>
+        <div className={styles.image} style={{ backgroundImage: `url('${method.image}')` }}/>
         <h3>{method.name}</h3>
         <p>{method.description}</p>
         <a href={method.link}>mehr</a>

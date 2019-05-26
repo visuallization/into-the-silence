@@ -140,5 +140,28 @@ collections:
     folder: "src/content/blog"
     create: true
     fields: 
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Intro Text", name: "intro", widget: "text" }
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        default: "src/static/img/hero.jpg"
+        media_library:
+          config:
+            multiple: true
+      - label: "Content"
+        name: "content"
+        widget: "list"
+        types:
+          - label: "Text"
+            name: "text"
+            widget: "object"
+            fields:
+              - { label: "Text", name: "text", widget: "markdown" }
+          - label: "Quote"
+            name: "quote"
+            widget: "object"
+            fields: 
+              - { label: "Quote", name: "quote", widget: "text"}
+              - { label: "Author", name: "author", widget: "string" }

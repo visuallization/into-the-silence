@@ -19,7 +19,8 @@
     "dev": "next ./src",
     "build": "next build ./src",
     "start": "next start ./src",
-    "export": "next build ./src && next export ./src -o ./out"
+    "export": "next build ./src && next export ./src -o ./out",
+    "generate:pages": "node scripts/generatePagesFromContent.ts" 
   },
   "devDependencies": {
     "@types/next": "^8.0.4",
