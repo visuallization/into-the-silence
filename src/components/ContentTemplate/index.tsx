@@ -71,20 +71,24 @@ class ContentTemplate extends React.Component<IContentTemplateProps, {}> {
   renderContent = () => {
     const { content } = this.props;
 
-    return content.map((element, index) => {
-      if (element.type === Type.quote) {
-        return (
-          <Quote
-            key={index}
-            className={styles.quote}
-            text={element.quote}
-            author={element.author}
-          />
-        );
-      }
+    if (content) {
+      return content.map((element, index) => {
+        if (element.type === Type.quote) {
+          return (
+            <Quote
+              key={index}
+              className={styles.quote}
+              text={element.quote}
+              author={element.author}
+            />
+          );
+        }
 
-      return <ReactMarkdown className={styles.markdown} key={index} source={element.text}/>;
-    });
+        return <ReactMarkdown className={styles.markdown} key={index} source={element.text}/>;
+      });
+    }
+
+    return null;
   }
 }
 
