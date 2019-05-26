@@ -1,6 +1,6 @@
 ---
-name: about
-title: Über mich und meine Lehrer
+name: being-present
+title: being present
 intro: >-
   Es geht darum, im eigenen inneren Körper anzukommen, aus den Gedankenkreiseln,
   in denen wir uns gewohnheitsmäßig lange und nicht immer erfolgreich aufhalten,
