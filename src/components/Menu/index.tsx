@@ -60,6 +60,7 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
 
     return (
       <div className={`${styles.menu} ${styles[position]} ${open ? styles.open : ''} ${className}`}>
+        {this.renderOverlay()}
         <div className={styles.mobileMenu}>
           <span className={styles.logo}>
             <Link href={items[0].link}><a onClick={this.closeMobileItems}>{items[0].name}</a></Link>
@@ -69,6 +70,15 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
         {this.renderMenuItems()}
       </div>
     );
+  }
+
+  renderOverlay = () => {
+    const { open } = this.state;
+
+    if (open) {
+      return <div className={styles.overlay} onClick={this.closeMobileItems}/>;
+    }
+    return null;
   }
 
   renderMenuItems = () => {
@@ -101,18 +111,20 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
 
   closeMobileItems = (e: React.SyntheticEvent) => {
     const { scrollOnClick } = this.props;
+    const element = e.currentTarget;
 
-    const anchor = e.currentTarget;
-    const href = anchor.getAttribute('href') || '';
+    if (element.tagName === 'A') {
+      const href = element.getAttribute('href') || '';
 
-    if (scrollOnClick) {
-      e.preventDefault();
-      e.stopPropagation();
+      if (scrollOnClick) {
+        e.preventDefault();
+        e.stopPropagation();
 
-      // strip "/" as it gets added by default on next export
-      (document.querySelector(href.replace('/', '')) as HTMLElement).scrollIntoView({
-        behavior: 'smooth',
-      });
+        // strip "/" as it gets added by default on next export
+        (document.querySelector(href.replace('/', '')) as HTMLElement).scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
     }
 
     this.showMobileItems(false);

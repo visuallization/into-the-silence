@@ -88,22 +88,20 @@
     }
   }
 
+  .overlay {
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+
   .open {
     .mobileMenu {
       border-bottom: 1px solid #EA2E49;
-    }
-
-    &:before {
-      content: '';
-      display: block;
-      position: fixed;
-
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: #000000;
-      opacity: 0.5;
     }
     
     .menuItems {
