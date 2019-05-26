@@ -1,6 +1,8 @@
 const path = require('path');
 const fs = require('fs');
 
+console.log('GENERATING PAGES');
+
 fs.readdir(path.resolve(__dirname, '../src/content/blog'), (err, data) => {
   if (err) {
     return console.log('Unable to scan directory: ', err);
