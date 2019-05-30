@@ -10,7 +10,7 @@ collections:
     label: "Pages"
     files:
 
-      - label: "Home"
+      - label: "home"
         name: "home"
         file: "src/content/home.md"
         fields:
@@ -34,14 +34,14 @@ collections:
               - { label: "Quote", name: "quote", widget: "text" }
               - { label: "Author", name: "author", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "markdown" }
+              - { label: "Text", name: "text", widget: "markdown", buttons: [bold, italic, link, heading-two, bulleted-list, numbered-list] }
               - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
           - label: "Section 2"
             name: "section2"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "markdown" }
+              - { label: "Text", name: "text", widget: "markdown", buttons: [bold, italic, link, heading-two, bulleted-list, numbered-list] }
               - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
           - label: "Section 3"
             name: "section3"
@@ -55,14 +55,14 @@ collections:
                   config:
                     multiple: true
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "markdown" }
+              - { label: "Text", name: "text", widget: "markdown", buttons: [bold, italic, link, heading-two, bulleted-list, numbered-list] }
               - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
           - label: "Section 4"
             name: "section4"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Text", name: "text", widget: "markdown" }
+              - { label: "Text", name: "text", widget: "markdown", buttons: [bold, italic, link, heading-two, bulleted-list, numbered-list] }
               - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
           - label: "Methods"
             name: "methods"
@@ -103,7 +103,7 @@ collections:
                 media_library:
                   config:
                     multiple: true
-              - { label: "Text", name: "text", widget: "markdown" }
+              - { label: "Text", name: "text", widget: "markdown", buttons: [bold, italic, link, heading-two, bulleted-list, numbered-list] }
               - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
 
   - label: "Content Pages"
@@ -130,7 +130,7 @@ collections:
             name: "text"
             widget: "object"
             fields:
-              - { label: "Text", name: "text", widget: "markdown" }
+              - { label: "Text", name: "text", widget: "markdown", buttons: [bold, italic, link, heading-two, bulleted-list, numbered-list] }
           - label: "Quote"
             name: "quote"
             widget: "object"
