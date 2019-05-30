@@ -106,7 +106,7 @@ collections:
               - { label: "Text", name: "text", widget: "markdown" }
               - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name" }
 
-  - label: "Blog"
+  - label: "Content Pages"
     name: "blog"
     identifier_field: "name"
     folder: "src/content/blog"
