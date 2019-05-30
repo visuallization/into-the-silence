@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
   branch: master
 
 media_folder: "src/static/img"
@@ -112,7 +112,7 @@ collections:
     folder: "src/content/blog"
     create: true
     fields: 
-      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Name", name: "name", widget: "string", pattern: ['^[a-z-]+$', 'Only use lowercase and "-" for spaces'] }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Intro Text", name: "intro", widget: "text" }
       - label: "Image"
