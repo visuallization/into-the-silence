@@ -59,7 +59,7 @@ class ContentTemplate extends React.Component<IContentTemplateProps, {}> {
         <Menu className={styles.menu} items={menuItems} />
         <div className={styles.content}>
           <h1>{title}</h1>
-          <p className={styles.intro}>{intro}</p>
+          <ReactMarkdown className={styles.intro} source={intro}/>
           <img src={image} />
           {this.renderContent()}
         </div>
