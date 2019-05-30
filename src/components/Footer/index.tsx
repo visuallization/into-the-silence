@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import styles from './styles.less';
 
@@ -19,9 +20,11 @@ class Footer extends React.Component<IFooterProps, {}>{
           <ul>
             <li>Mag<sup>a</sup>. Heidrun Rieger</li>
             <li>Hetzendorf, AT</li>
-            <li><a href="tel:+43 0123 456 789">+43 0123 456 789</a></li>
-            <li><a href="mailto:my@email.com">my@email.com</a></li>
-            <li><a>Impressum</a></li>
+            <li><Link><a href="tel:+43 0123 456 789">+43 0123 456 789</a></Link></li>
+            <li><Link><a href="mailto:my@email.com">my@email.com</a></Link></li>
+            <li>
+              <Link><a href="/legal-notice-and-data-privacy">Impressum & Datenschutz</a></Link>
+            </li>
           </ul>
         </div>
       </div>
