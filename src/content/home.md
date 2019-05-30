@@ -5,7 +5,7 @@ hero:
   title: In die Stille gehen
 section1:
   author: Lars Muhl
-  link: about
+  link: nature
   quote: >-
     Listening to the silence... The sure way back to the Holy of Holies, the
     bridge to the Plane of Unity, God.
