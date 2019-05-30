@@ -51,7 +51,7 @@ section3:
     entdeckt sein wollen.
   title: 'In die Lebendigkeit, in die Natur'
 section4:
-  link: about
+  link: stillness
   text: >-
     _Stille ist jener Ort, an dem wir mit dem All Einen wieder in Kontakt kommen
     manchmal deutlicher, manchmal weniger deutlich_
