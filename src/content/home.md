@@ -92,21 +92,21 @@ methods:
       Gedanken mit dem nächsten Schritt auszusteigen und im Augenblick
       anzukommen -vollkommen präsent zu sein.
     image: /static/img/walking.jpg
-    link: /about
+    link: walking
     name: Achstames Gehen
   - description: >-
       Eine schöne Art, die innere Bewegung im Außen sichtbar zu machen, diesen
       Prozess achtsam wahr zu nehmen und zu begleiten, bietet das Format von
       Authentic Movement.
     image: /static/img/authentic_movement.jpg
-    link: /about
+    link: movement
     name: Achtsames Bewegen Authentic Movement
   - description: >-
       Es ist ein solches Glück, zusammen mit der Musik im Körper, auf dem Boden
       dieser Erde und zusammen mit den anderen wunderbaren Mittänzerinnen und
       Tänzern zu sein, dass es dafür im Grunde keine Worte gibt!
     image: /static/img/dance.jpg
-    link: /about
+    link: dancing
     name: Tanzen & Kreistänze
   - description: >-
       Gemeinsames Singen einfacher Lieder und Mantren ist immer wieder
@@ -114,14 +114,14 @@ methods:
       den Einen Augenblick, in das Verbunden Sein mit sich selbst und den
       anderen.
     image: /static/img/sing.jpg
-    link: /about
+    link: singing
     name: Heilsames Singen
   - description: >-
       Kleine Rituale zur Reinigung können das Bewusstmachen unterstützen und die
       förderlichen Gedanken und Energien, die jeder Zeit mit und um uns sind,
       aktiv in das eigene Leben, in den Moment einladen.
     image: /static/img/forest_in_japan.jpg
-    link: /about
+    link: rituals
     name: 'Archaisches Wissen, lebendige Flamme'
 section5:
   author: Eckhart Tolle
