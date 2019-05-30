@@ -85,7 +85,7 @@ methods:
       anderen, mit der Welt.
     image: >-
       /static/img/woman-holding-hands-little-girl-boy-walking-sunlit-woodland-autumn-6448-1024x683.jpg
-    link: /about
+    link: listening
     name: 'Achtsames Sprechen, und Hören'
   - description: >-
       Es ist eine wunderbare Möglichkeit, um aus dem oft endlosen Strom der
