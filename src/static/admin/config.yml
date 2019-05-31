@@ -114,10 +114,11 @@ collections:
     fields: 
       - { label: "Name", name: "name", widget: "string", pattern: ['^[a-z-]+$', 'Only use lowercase and "-" for spaces'] }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Intro Text", name: "intro", widget: "text" }
+      - { label: "Intro Text", name: "intro", widget: "text", required: false }
       - label: "Image"
         name: "image"
         widget: "image"
+        required: false
         default: "src/static/img/hero.jpg"
         media_library:
           config:

@@ -52,20 +52,40 @@ const menuItems = [
 
 class ContentTemplate extends React.Component<IContentTemplateProps, {}> {
   render() {
-    const { title, intro, image } = this.props;
+    const { title } = this.props;
 
     return (
       <div className={styles.contentTemplate}>
         <Menu className={styles.menu} items={menuItems} />
         <div className={styles.content}>
           <h1>{title}</h1>
-          <ReactMarkdown className={styles.intro} source={intro}/>
-          <img src={image} />
+          {this.renderIntro()}
+          {this.renderImage()}
           {this.renderContent()}
         </div>
         <Footer />
       </div>
     );
+  }
+
+  renderIntro = () => {
+    const { intro } = this.props;
+
+    if (intro) {
+      return <ReactMarkdown className={styles.intro} source={intro}/>;
+    }
+
+    return null;
+  }
+
+  renderImage = () => {
+    const { image } = this.props;
+
+    if (image) {
+      return <img src={image} />;
+    }
+
+    return null;
   }
 
   renderContent = () => {
