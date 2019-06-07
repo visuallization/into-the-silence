@@ -1,6 +1,3 @@
-@menuHeightOnDesktop: 78px;
-@menuHeightOnMobile: 69px;
-
 @contentPaddingTop: 64px;
 @contentPaddingLeft: 25px;
 
@@ -12,8 +9,7 @@
   bottom: 0;
 
   .heroImage {
-    margin: @menuHeightOnDesktop 84px;
-    height: calc(100vh - 2 * @menuHeightOnDesktop);
+    margin-bottom: 78px;
   }
 
   .content {
@@ -157,8 +153,7 @@
 @media only screen and (max-width: 1046px) {
   .home {
     .heroImage {
-      margin: @menuHeightOnMobile 0 0 0;
-      height: calc(100vh - @menuHeightOnMobile);
+      margin-bottom: 0;
     }
 
     .section1 {
