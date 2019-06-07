@@ -36,7 +36,6 @@ class Home extends React.Component {
       <div id="home" className={styles.home}>
         <Menu items={menuItems} scrollOnClick />
         <HeroImage
-          className={styles.heroImage}
           src={hero.image}
           title={hero.title}
           subtitle={hero.subtitle}

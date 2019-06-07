@@ -8,7 +8,9 @@
 
   z-index: 100;
 
+  color: #FFFFFF;
   a {
+    color: #FFFFFF;
     text-decoration: none;
   }
 }
@@ -27,6 +29,12 @@
   position: fixed;
   background: #FFFFFF;
   animation: slideIn 0.2s;
+
+  color: #EA2E49;
+
+  a {
+    color: #EA2E49;
+  }
 }
 
 .menuItems {
@@ -54,8 +62,6 @@
   
   padding: 15px 25px;
 
-  background-color: #FFFFFF;
-
   .logo {
     font-size: 12px;
     width: 70px;
@@ -76,8 +82,8 @@
     transition: max-height 0.2s ease-out;
     margin: 0;
 
+    opacity: 0;
     overflow: hidden;
-    background-color: #FFFFFF;
 
     li {
       padding: 15px 25px;
@@ -96,18 +102,14 @@
     left: 0;
     right: 0;
     background-color: #000000;
-    opacity: 0.5;
   }
 
   .open {
-    .mobileMenu {
-      border-bottom: 1px solid #EA2E49;
-    }
-    
     .menuItems {
       height: auto;
       padding: 15px 0;
       max-height: 250px;
+      opacity: 1;
     }
   }
 }

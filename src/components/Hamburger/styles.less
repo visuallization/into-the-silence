@@ -6,8 +6,8 @@
 
 .line {
   width: 28px;
-  height: 1px;
-  background-color: #EA2E49;
+  height: 2px;
+  background-color: currentColor;
 
   transition: transform 0.2s ease-in-out, opacity 0.2s linear, margin 0.2s linear;
 }
@@ -18,7 +18,7 @@
 
 .open {
   .top {
-    margin-bottom: -1px;
+    margin-bottom: -2px;
     transform: rotate(45deg);
     transition-delay: 0.2s;
   }
@@ -30,7 +30,7 @@
   }
   
   .bottom {
-    margin-top: -1px;
+    margin-top: -2px;
     transform: rotate(-45deg);
     transition-delay: 0.2s;
   }

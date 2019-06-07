@@ -19,8 +19,8 @@ h1, h2, h3, h4, h5, h6, ul, blockquote {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Work Sans';
-  font-weight: 500;
+  font-family: 'Adallyn';
+  font-weight: 400;
 }
 
 h2 {
@@ -55,7 +55,7 @@ a:visited {
 
 @media only screen and (max-width: 650px) {
   h2 {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 10px;
   }
 }

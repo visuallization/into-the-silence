@@ -1,5 +1,4 @@
 export const home: string;
-export const heroImage: string;
 export const content: string;
 export const section1: string;
 export const section2: string;
