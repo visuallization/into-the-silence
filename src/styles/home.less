@@ -8,10 +8,6 @@
   right: 0;
   bottom: 0;
 
-  .heroImage {
-    margin-bottom: 78px;
-  }
-
   .content {
     margin: 0 auto;
     width: 100%;
@@ -21,11 +17,16 @@
     padding: @contentPaddingTop @contentPaddingLeft;
     
     font-size: 18px;
+
+    em {
+      font-style: normal;
+      font-size: 22px;
+    }
   }
 
   .section1 {
     display: flex;
-    padding-top: 0;
+    padding-top: @contentPaddingTop;
   }
 
   .section2 {
@@ -152,14 +153,6 @@
 
 @media only screen and (max-width: 1046px) {
   .home {
-    .heroImage {
-      margin-bottom: 0;
-    }
-
-    .section1 {
-      padding-top: @contentPaddingTop;
-    }
-
     .methods {
       grid-template-columns: auto auto;
 
@@ -174,6 +167,14 @@
   .home {
     .content {
       font-size: 16px;
+
+      em {
+        font-size: 20px;
+      }
+    }
+
+    .section1 {
+      padding-top: 40px;
     }
 
     .section {

@@ -66,9 +66,7 @@ section4:
     wo alles gespeichert ist, Erlebtes, Mögliches
 
 
-    manch einer hat diesen Zugang selbstverständlich, aus sich heraus
-
-    \
+    manch einer hat diesen Zugang selbstverständlich, aus sich heraus.
 
     manch einer wird erst durch schmerzhafte Situationen im Leben darauf
     gestoßen.
