@@ -44,3 +44,29 @@
   font-weight: 600;
   src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url('../fonts/Work_Sans/WorkSans600.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'Adallyn';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Adallyn Light'), local('Adallyn-Light'), url('../fonts/Adallyn/Adallyn-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Adallyn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Adallyn'), local('Adallyn-Regular'), url('../fonts/Adallyn/Adallyn-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Adallyn';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Adallyn Smooth'), local('Adallyn-Smooth'), url('../fonts/Adallyn/Adallyn-Smooth.woff') format('woff');
+}
+@font-face {
+  font-family: 'Adallyn';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Adallyn Bold'), local('Adallyn-Bold'), url('../fonts/Adallyn/Adallyn-Bold.woff') format('woff');
+}
+
