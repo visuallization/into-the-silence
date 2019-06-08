@@ -9,6 +9,8 @@ interface IMenuProps {
   className?: string;
   items: IMenuItem[];
   scrollOnClick?: boolean;
+  logoColor?: string;
+  logoColorSticky?: string;
 }
 
 interface IMenuItem {
@@ -33,6 +35,8 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
   static defaultProps = {
     className: '',
     scrollOnClick: false,
+    logoColor: 'inherit',
+    logoColorSticky: 'inherit',
   };
 
   constructor(props: any) {
@@ -55,7 +59,7 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
   }
 
   render() {
-    const { className, items } = this.props;
+    const { className, items, logoColor, logoColorSticky } = this.props;
     const { position, open } = this.state;
 
     return (
@@ -63,7 +67,14 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
         {this.renderOverlay()}
         <div className={styles.mobileMenu}>
           <span className={styles.logo}>
-            <Link href={items[0].link}><a onClick={this.closeMobileItems}>{items[0].name}</a></Link>
+            <Link href={items[0].link}>
+              <a
+                onClick={this.closeMobileItems}
+                style={{ color: `${position === POSITION.ABSOLUTE ? logoColor : logoColorSticky}` }}
+              >
+                {items[0].name}
+              </a>
+            </Link>
           </span>
           <Hamburger open={open} onToggle={this.showMobileItems} />
         </div>
