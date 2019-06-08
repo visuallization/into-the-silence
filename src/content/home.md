@@ -96,14 +96,14 @@ methods:
       Eine schöne Art, die innere Bewegung im Außen sichtbar zu machen, diesen
       Prozess achtsam wahr zu nehmen und zu begleiten, bietet das Format von
       Authentic Movement.
-    image: /static/img/authentic_movement.jpg
+    image: /static/img/dance.jpg
     link: movement
     name: Achtsames Bewegen Authentic Movement
   - description: >-
       Es ist ein solches Glück, zusammen mit der Musik im Körper, auf dem Boden
       dieser Erde und zusammen mit den anderen wunderbaren Mittänzerinnen und
       Tänzern zu sein, dass es dafür im Grunde keine Worte gibt!
-    image: /static/img/dance.jpg
+    image: /static/img/authentic_movement.jpg
     link: dancing
     name: Tanzen & Kreistänze
   - description: >-
