@@ -19,6 +19,17 @@ class CustomDocument extends Document {
         <Head>
           <link rel="stylesheet" href="/static/styles/normalize.css" />
           <link rel="stylesheet" href="/static/styles/main.css" />
+          { process.env.NODE_ENV === 'production' && (
+            <>
+              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141715784-1"/>
+              <script
+                dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
+                function gtag() {window.dataLayer.push(arguments)}
+                gtag('js', new Date());
+                gtag('config', 'UA-141715784-1');`}}
+              />
+            </>
+          )}
         </Head>
         <body>
           <Main />
