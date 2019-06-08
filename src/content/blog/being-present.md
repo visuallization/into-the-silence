@@ -41,9 +41,12 @@ content:
       Das Licht, das auf einem Schneefeld in tausende Funken und alle Farben des
       Regenbogens zerspringt, das Spiel von Licht und Schatten durch die
       Blätter; die unendliche Vielfalt der Gestalten der Bäume, das ganze
-      Universum in einem einzigen Blätterdach, mächtige Wurzeln, die Farben von
-      Blättern und Blüten; Wolkenformationen, die über den Köpfen hinweg ziehen
-      und immer wieder das Licht – in allem, das ist.
+      Universum in einem einzigen Blätterdach, mächtige Wurzeln, die Farben und
+      Formen von Blüten, Vögeln, Wolkenformationen, die über den Köpfen hinweg
+      ziehen
+
+
+      und immer wieder das Licht – in allem, was ist.
     type: text
   - author: Eckhart Tolle
     quote: |-
