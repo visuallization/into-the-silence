@@ -8,7 +8,42 @@ intro: >-
   Lebendigkeit hinein zu tauchen.
 image: /static/img/img_2146.jpg
 content:
-  - text: "Es beginnt mit der puren Wahrnehmung dessen, was im Augenblick da ist: dem eigenen Atem lauschen, das Geräusch der Schuhe beim Gehen wahrnehmen, die Geräusche der Blätter, durch die der Wind streift, das Vogelzwitschern, das Rauschen der Schwingen der Krähe, die gerade über unsere Köpfe fliegt...\n\nEs sind die feinen, subtilen Geräusche und Klänge die uns immer tiefer hinein führen, in den Raum, in dem wir die eigene Stille wahrnehmen können.\r\n\n## sehen\n\nDas Licht, das auf einem Schneefeld in tausende Funken und alle Farben des Regenbogens zerspringt, das Spiel von Licht und Schatten durch die Blätter; die unendliche Vielfalt der Gestalten der Bäume, das ganze Universum in einem einzigen Blätterdach, mächtige Wurzeln, die Farben von Blättern und Blüten; Wolkenformationen, die über den Köpfen hinweg ziehen und immer wieder das Licht – in allem, das ist."
+  - text: >-
+      ## hören - der Stille lauschen
+
+
+      Es beginnt mit der puren Wahrnehmung dessen, was im Augenblick da ist: dem
+      eigenen Atem lauschen, das Geräusch der Schuhe beim Gehen wahrnehmen, die
+      Geräusche der Blätter, durch die der Wind streift, das Vogelzwitschern,
+      das Rauschen der Schwingen der Krähe, die gerade über unsere Köpfe
+      fliegt...
+
+
+      Es sind die feinen, subtilen Geräusche und Klänge, die uns immer tiefer
+      hinein führen, in den Raum, in dem wir die eigene Stille wahrnehmen
+      können. 
+
+
+      In diesem Raum werden auch unsere Gedanken bewusster, die gewohnheitsmäßig
+      und oft unfreundlich durch uns hindurchziehen. Hier aufmerksam zu bleiben,
+      negative Gedanken nicht weiter zu füttern und damit noch mehr Leid zu
+      produzieren, sie ziehen lassen, kann eine Herausforderung sein.
+
+
+      Wie Ruth Weis singt: "It`s work, it´s work, it´s worth it!"
+
+
+
+
+      ## sehen
+
+
+      Das Licht, das auf einem Schneefeld in tausende Funken und alle Farben des
+      Regenbogens zerspringt, das Spiel von Licht und Schatten durch die
+      Blätter; die unendliche Vielfalt der Gestalten der Bäume, das ganze
+      Universum in einem einzigen Blätterdach, mächtige Wurzeln, die Farben von
+      Blättern und Blüten; Wolkenformationen, die über den Köpfen hinweg ziehen
+      und immer wieder das Licht – in allem, das ist.
     type: text
   - author: Eckhart Tolle
     quote: |-
