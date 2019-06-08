@@ -25,7 +25,7 @@ section1:
 section2:
   link: being-present
   text: >-
-    _Mit allen Sinnen wahrnehmen und Fühlen was ist._
+    _Mit allen Sinnen wahrnehmen und fühlen was ist._
 
 
     Es geht darum, im eigenen inneren Körper anzukommen, aus den

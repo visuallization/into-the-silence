@@ -64,12 +64,46 @@ content:
       ## riechen & schmecken
 
 
-      Den Erdboden, das Laub, die Straße, die Blumen, den Schnee, den Regen in
-      der Luft, auch wenn wir ihn noch nicht sehen können.
+      Den Erdboden, das Laub, die Straße, die Blumen, den Regen in der Luft,
+      auch wenn wir ihn noch nicht sehen können.
 
 
       Den Honigduft in der Luft, das Harz am Baum, die Dirndeln, das frische
       Kraut der Brennessel.
+
+
+
+
+      ## fühlen
+
+
+      Das Fühlen des eigenen inneren Körpers, der Lebendigkeit in sich selbst,
+      ist zu tiefst beglückend und lässt unsere Verbundenheit mit allem, was
+      ist, erahnen.
+
+
+      Wer bereit ist, zu fühlen, spürt das Wohle, die Freude ebenso wie Wut,
+      Trauer, Schmerz, das ganze Spektrum.
+
+
+      Sogenannte negative Gefühlen nicht einfach nur weg zu drücken, mit ihnen
+      in einer Art und Weise um zu gehen, die dem Leben dient, kann einiges an
+      Willen und Hingabe erfordern.
+
+
+      Gefühle ziehen durch unser Wesen, spontan tauchen sie auf, einem aktuellen
+      Anlass entsprechend, manchmal auch mit einer Heftigkeit und einem Schmerz,
+      der nicht zur Situation zu passen schein. Da können alte Gefühle an die
+      Oberfläche drängen, gesammelt ein Leben lang, über Generationen manchmal,
+      noch nicht befreit.
+
+
+      Hier ist eine Möglichkeit, achtsam zu bleiben, liebevoll zu sein, mit
+      allem, das auftaucht und klar zu wählen.
+
+
+      Zu wissen, dass man in solchen Situationen nicht alleine ist, ist ein
+      Glück.
     type: text
 ---
 
