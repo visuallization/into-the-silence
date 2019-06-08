@@ -23,6 +23,16 @@ class CustomDocument extends Document {
             <>
               <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141715784-1"/>
               <script
+                dangerouslySetInnerHTML={{__html: `var code = 'ga-disable-UA-141715784-1';
+                if (document.cookie.indexOf(code + '=true') > -1) {
+                  window[code] = true;
+                }
+                function gaOptout() {
+                  document.cookie = code + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+                  window[code] = true;
+                }`}}
+              />
+              <script
                 dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
                 function gtag() {window.dataLayer.push(arguments)}
                 gtag('js', new Date());
