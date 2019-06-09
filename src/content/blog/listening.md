@@ -6,7 +6,7 @@ intro: >-
   bereichert die Seele und verbindet uns wieder mehr mit uns selbst, mit den
   anderen, mit der Welt.
 image: >-
-  /static/img/woman-holding-hands-little-girl-boy-walking-sunlit-woodland-autumn-6448-1024x683.jpg
+  /static/img/forest_walking.jpg
 content:
   - text: |-
       ## Eine überschrift
