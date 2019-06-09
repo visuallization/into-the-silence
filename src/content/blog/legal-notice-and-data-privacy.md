@@ -162,8 +162,8 @@ content:
       ](https://tools.google.com/dlpage/gaoptout?hl=de)
 
 
-      Alternativ verhindern Sie mit einem Klick auf diesen Link
-      [Optout](javascript:gaOptout();), dass Google Analytics innerhalb dieser
+      Alternativ verhindern Sie mit einem Klick auf diesen [Link](javascript:gaOptout();)
+      , dass Google Analytics innerhalb dieser
       Website Daten über Sie erfasst. Mit dem Klick auf obigen Link laden Sie
       ein „Opt-Out-Cookie“ herunter. Ihr Browser muss die Speicherung von
       Cookies also hierzu grundsätzlich erlauben. Löschen Sie Ihre Cookies

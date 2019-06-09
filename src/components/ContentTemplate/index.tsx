@@ -104,7 +104,15 @@ class ContentTemplate extends React.Component<IContentTemplateProps, {}> {
           );
         }
 
-        return <ReactMarkdown className={styles.markdown} key={index} source={element.text}/>;
+        return (
+          <ReactMarkdown
+            className={styles.markdown}
+            key={index}
+            source={element.text}
+            // @ts-ignore
+            transformLinkUri={null}
+          />
+        );
       });
     }
 
