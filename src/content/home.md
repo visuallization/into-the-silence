@@ -1,6 +1,6 @@
 ---
 hero:
-  image: /static/img/forest_in_japan.jpg
+  image: /static/img/lake.jpg
   subtitle: In die eigene Lebendigkeit
   title: In die Stille gehen
 section1:
@@ -82,7 +82,7 @@ methods:
       bereichert die Seele und verbindet uns wieder mehr mit uns selbst, mit den
       anderen, mit der Welt.
     image: >-
-      /static/img/woman-holding-hands-little-girl-boy-walking-sunlit-woodland-autumn-6448-1024x683.jpg
+      /static/img/forest_walking.jpg
     link: listening
     name: 'Achtsames Sprechen, und Hören'
   - description: >-
@@ -96,14 +96,14 @@ methods:
       Eine schöne Art, die innere Bewegung im Außen sichtbar zu machen, diesen
       Prozess achtsam wahr zu nehmen und zu begleiten, bietet das Format von
       Authentic Movement.
-    image: /static/img/dance.jpg
+    image: /static/img/authentic_movement.jpg
     link: movement
     name: Achtsames Bewegen Authentic Movement
   - description: >-
       Es ist ein solches Glück, zusammen mit der Musik im Körper, auf dem Boden
       dieser Erde und zusammen mit den anderen wunderbaren Mittänzerinnen und
       Tänzern zu sein, dass es dafür im Grunde keine Worte gibt!
-    image: /static/img/authentic_movement.jpg
+    image: /static/img/circle_dance.jpg
     link: dancing
     name: Tanzen & Kreistänze
   - description: >-
@@ -118,7 +118,7 @@ methods:
       Kleine Rituale zur Reinigung können das Bewusstmachen unterstützen und die
       förderlichen Gedanken und Energien, die jeder Zeit mit und um uns sind,
       aktiv in das eigene Leben, in den Moment einladen.
-    image: /static/img/forest_in_japan.jpg
+    image: /static/img/lake.jpg
     link: rituals
     name: 'Archaisches Wissen, lebendige Flamme'
 section5:

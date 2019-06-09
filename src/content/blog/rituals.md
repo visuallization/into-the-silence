@@ -5,7 +5,7 @@ intro: >-
   Kleine Rituale zur Reinigung können das Bewusstmachen unterstützen und die
   förderlichen Gedanken und Energien, die jeder Zeit mit und um uns sind, aktiv
   in das eigene Leben, in den Moment einladen.
-image: /static/img/forest_in_japan.jpg
+image: /static/img/forest_walking.jpg
 content:
   - text: |-
       ## Eine Überschrift
