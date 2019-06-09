@@ -171,8 +171,7 @@ content:
       Website vonnöten.
 
 
-      Hier finden Sie weitere Informationen zur Datennutzung durch die Google
-      Inc.:
+      Hier finden Sie weitere Informationen zur Datennutzung durch die Google Inc.:
 
 
       * <https://policies.google.com/privacy/partners?hl=de> (Daten, die von

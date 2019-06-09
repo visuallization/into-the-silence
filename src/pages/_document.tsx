@@ -30,6 +30,7 @@ class CustomDocument extends Document {
                 function gaOptout() {
                   document.cookie = code + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
                   window[code] = true;
+                  window.alert("Google Analytics wurde auf der Seite für Sie deaktiviert.");
                 }`}}
               />
               <script
