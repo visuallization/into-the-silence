@@ -16,7 +16,8 @@ section1:
 
     Viele von uns sehnen sich danach, wieder mehr zur Ruhe, zu sich selbst zu
     kommen. Diese Sehnsucht nach mehr innerem Frieden geht oft Hand in Hand mit
-    dem Wunsch nach mehr Wahrhaftigkeit im eigenen Leben, nach Lebendigkeit.
+    dem Wunsch nach mehr Wahrhaftigkeit im eigenen Leben, nach mehr Selbst Sein,
+    nach Lebendigkeit.
 
 
     Eine schöne Möglichkeit, diese Qualitäten in das eigene Leben einzuladen,
@@ -81,8 +82,7 @@ methods:
       Achtsames Zuhören und Sprechen erleichtert das schwer gewordene Herz,
       bereichert die Seele und verbindet uns wieder mehr mit uns selbst, mit den
       anderen, mit der Welt.
-    image: >-
-      /static/img/forest_walking.jpg
+    image: /static/img/forest_walking.jpg
     link: listening
     name: 'Achtsames Sprechen, und Hören'
   - description: >-
