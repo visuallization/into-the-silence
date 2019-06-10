@@ -16,8 +16,8 @@ section1:
 
     Viele von uns sehnen sich danach, wieder mehr zur Ruhe, zu sich selbst zu
     kommen. Diese Sehnsucht nach mehr innerem Frieden geht oft Hand in Hand mit
-    dem Wunsch nach mehr Wahrhaftigkeit im eigenen Leben, nach mehr Selbst Sein,
-    nach Lebendigkeit.
+    dem Wunsch nach mehr Wahrhaftigkeit im eigenen Leben, nach mehr sich Selbst
+    Sein lassen, nach Lebendigkeit.
 
 
     Eine schöne Möglichkeit, diese Qualitäten in das eigene Leben einzuladen,
