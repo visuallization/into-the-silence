@@ -105,19 +105,6 @@ methods:
       Es ist ein Glück, zusammen mit der Musik im Körper, auf dem Boden dieser
       Erde und zusammen mit den anderen wunderbaren Mittänzerinnen und Tänzern
       zu sein, dass es dafür im Grunde keine Worte gibt!
-
-      Himmel und Erde berühren sich in diesem Augenblick, stille, kaum
-      wahrnehmbar. Und manches Mal laut jubelnd.
-
-
-      Zu tanzen ist für mich Ausdruck höchster Freude, Dankbarkeit und
-      Begeisterung.
-
-      Ich bin unendlich dankbar, dass ich mich bewegen kann, und zwar genauso,
-      wie ich es beim Tanzen tue. Ob das für Dabeistehende eigenartig oder
-      interessant erscheint, ist mir in diesem Augenblick vollkommen egal – ein
-      glückseliger Zustand, der mir sonst nicht immer so leicht und schnell
-      zufließt
     image: /static/img/circle_dance.jpg
     link: dancing
     name: Tanzen & Kreistänze
