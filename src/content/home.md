@@ -126,13 +126,6 @@ methods:
       beglückend und herzöffnend.  Das Singen befördert uns direkt hinein – in
       den Einen Augenblick, in das Verbunden Sein mit sich selbst und den
       anderen.
-
-      Wir singen Lieder aus verschiedenen Kulturen und spirituellen Traditionen.
-
-      Die alten Weisheitslehren, buddhistische, sufistische, christliche,
-      muslimische, indigene, die bekannten und die vielen uns nicht so
-      bekannten, weisen, wenn wir es so erkennen wollen, in die eine Richtung,
-      zu der Quelle, die in uns selbst und in allem, was ist, lebt.
     image: /static/img/sing.jpg
     link: singing
     name: Heilsames Singen
