@@ -83,26 +83,6 @@ methods:
       bereichert die Seele und verbindet uns wieder mehr mit uns selbst, mit den
       anderen, mit der Welt.
 
-      Wenn wir miteinander durch die Natur gehen, wird dieses aufmerksame
-      Lauschen und Sprechen zum Fokus.
-
-      Basis dafür ist die Stille, der Raum, in dem alles, was im Augenblick da
-      ist, bewusst wahrgenommen wird. 
-
-      So wie schöne Musik, ein schöner Klang die Stille braucht, um sein Werden
-      und Klingen miterleben und genießen zu können, so braucht unser tief
-      Inneres die Stille, damit die Weite und Komplexität erahnt und gewürdigt
-      werden kann.
-
-      Diese Ahnung bringt uns näher – zu uns selbst, zur Quelle, zu unserem
-      schöpferischen Potential.
-
-      Was ist da in mir, jetzt, im Augenblick, was zeigt sich, was will
-      ausgedrückt sein?
-
-      Und was ist um mich herum, was ist da zu hören, wahrzunehmen, was ist das,
-      was mich umgibt und wie wirkt es auf mich?
-
     image: /static/img/forest_walking.jpg
     link: listening
     name: 'Achtsames Sprechen, und Hören'
