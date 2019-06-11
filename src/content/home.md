@@ -86,16 +86,11 @@ methods:
     image: /static/img/forest_walking.jpg
     link: listening
     name: 'Achtsames Sprechen, und Hören'
-  - description: >-
+  - description: >+
       Es ist eine wunderbare Möglichkeit, um aus dem oft endlosen Strom der
       Gedanken mit dem nächsten Schritt auszusteigen und im Augenblick
-      anzukommen -vollkommen präsent zu sein.
+      anzukommen - vollkommen präsent zu sein.
 
-
-      Beginnend mit der Wahrnehmung des eigenen Atems, dem fließenden Übergang
-      von Innen und Außen, mit der Wahrnehmung des eigenen, inneren Körpers, der
-      Fußsohlen, des Kontakts zum Boden lenken wir unsere Aufmerksamkeit bei
-      jedem Schritt hin zu dem, was im Augenblick tatsächlich da ist.
     image: /static/img/walking.jpg
     link: walking
     name: Achstames Gehen
