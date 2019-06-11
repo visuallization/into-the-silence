@@ -7,7 +7,7 @@ intro: >-
   Tänzern zu sein, dass es dafür im Grunde keine Worte gibt!
 image: /static/img/circle_dance.jpg
 content:
-  - text: "Der inneren Bewegung wird nachgespürt, wer will, kann ihr mikroskopisch fein nachgehen und in eine äußere Bewegung umsetzen.\r\n\nSo werden innere Prozesse sichtbar, und können miteinander auch geteilt werden.\r\n\nGenau diese Möglichkeit des Mitteilens von Erfahrungen und Empfindungen kann tröstlich und hilfreich sein.\r\n\nZentral für mich in dieser Arbeit ist das achtsame und liebevolle Wahrnehmen von allem, was sich hier zeigen will – das liebevolle Gesehen Sein.\r\n\n##"
+  - text: "\n\nHimmel und Erde berühren sich in diesem Augenblick, stille, kaum wahrnehmbar. Und manches Mal laut jubelnd.\r\n\nZu tanzen ist für mich Ausdruck höchster Freude, Dankbarkeit und Begeisterung.\r\n\nIch bin unendlich dankbar, dass ich mich bewegen kann, und zwar genauso, wie ich es beim Tanzen tue. Ob das für Dabeistehende eigenartig oder interessant erscheint, ist mir in diesem Augenblick vollkommen egal – ein glückseliger Zustand, der mir sonst nicht immer so leicht und schnell zufließt\r\n\n##"
     type: text
 ---
 
