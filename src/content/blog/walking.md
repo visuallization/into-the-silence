@@ -7,10 +7,11 @@ intro: >-
   präsent zu sein.
 image: /static/img/walking.jpg
 content:
-  - text: |-
-      ## Eine überschrift
-
-      Etwas Text...
+  - text: >-
+      Beginnend mit der Wahrnehmung des eigenen Atems, dem fließenden Übergang
+      von Innen und Außen, mit der Wahrnehmung des eigenen, inneren Körpers, der
+      Fußsohlen, des Kontakts zum Boden lenken wir unsere Aufmerksamkeit bei
+      jedem Schritt hin zu dem, was im Augenblick tatsächlich da ist.
     type: text
 ---
 
