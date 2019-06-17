@@ -1,10 +1,7 @@
 ---
 name: walking
 title: Achstames Gehen
-intro: >-
-  Es ist eine wunderbare Möglichkeit, um aus dem oft endlosen Strom der Gedanken
-  mit dem nächsten Schritt auszusteigen und im Augenblick anzukommen -vollkommen
-  präsent zu sein.
+intro: ''
 image: /static/img/walking.jpg
 content:
   - text: >-
