@@ -113,7 +113,7 @@ methods:
       beglückend und herzöffnend.  Das Singen befördert uns direkt hinein – in
       den Einen Augenblick, in das Verbunden Sein mit sich selbst und den
       anderen.
-    image: /static/img/sing.jpg
+    image: /static/img/singing.jpg
     link: singing
     name: Heilsames Singen
   - description: >+
