@@ -12,9 +12,7 @@ content:
 
       * Hetzdendorf, Wien, AT
 
-      * +43 0123 4567 89
-
-      * my@email.com
+      * kontakt@in-die-stille-gehen.at
 
 
       ## Datenschutz

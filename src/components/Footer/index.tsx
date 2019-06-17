@@ -20,8 +20,11 @@ class Footer extends React.Component<IFooterProps, {}>{
           <ul>
             <li>Mag<sup>a</sup>. Heidrun Rieger</li>
             <li>Hetzendorf, AT</li>
-            <li><Link href="tel:+43 0123 456 789"><a>+43 0123 456 789</a></Link></li>
-            <li><Link href="mailto:my@email.com"><a>my@email.com</a></Link></li>
+            <li>
+              <Link href="mailto:kontakt@in-die-stille-gehen.at">
+                <a>kontakt@in-die-stille-gehen.at</a>
+              </Link>
+            </li>
             <li>
               <Link href="/legal-notice-and-data-privacy"><a>Impressum & Datenschutz</a></Link>
             </li>
