@@ -1,11 +1,7 @@
 ---
 name: being-present
 title: being present
-intro: >-
-  Es geht darum, im eigenen inneren Körper anzukommen, aus den Gedankenkreiseln,
-  in denen wir uns gewohnheitsmäßig lange und nicht immer erfolgreich aufhalten,
-  heraus und mit der Aufmerksamkeit in den eigenen Körper, in die eigene
-  Lebendigkeit hinein zu tauchen.
+intro: ''
 image: /static/img/img_2146.jpg
 content:
   - text: >-
@@ -30,9 +26,7 @@ content:
       produzieren, sie ziehen lassen, kann eine Herausforderung sein.
 
 
-      Wie Ruth Weis singt: "It`s work, it´s work, it´s worth it!"
-
-
+      Wie Ruth Weiss singt: "It`s work, it´s work, it´s worth it!"
 
 
       ## sehen
