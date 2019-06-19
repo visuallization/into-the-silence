@@ -2,7 +2,7 @@
 name: walking
 title: Achstames Gehen
 intro: ''
-image: /static/img/walking.jpg
+image: ''
 content:
   - text: >-
       Beginnend mit der Wahrnehmung des eigenen Atems, dem fließenden Übergang
