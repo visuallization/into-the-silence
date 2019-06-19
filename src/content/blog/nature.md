@@ -2,7 +2,7 @@
 name: nature
 title: In der eigenen und umgebenden Natur ankommen.
 intro: ''
-image: /static/img/forest_walking.jpg
+image: ''
 content:
   - text: >-
       Stille werden, der Stille lauschen, die Stille in sich, den inneren Raum
