@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
+import CookieBanner from '../CookieBanner';
 import Footer from '../Footer';
 import Menu from '../Menu';
 import Quote from '../Quote';
@@ -64,6 +65,7 @@ class ContentTemplate extends React.Component<IContentTemplateProps, {}> {
           {this.renderContent()}
         </div>
         <Footer />
+        <CookieBanner />
       </div>
     );
   }

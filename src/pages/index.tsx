@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ContentBlock, Footer, HeroImage, Menu, Quote } from '../components';
+import { CookieBanner, ContentBlock, Footer, HeroImage, Menu, Quote } from '../components';
 import content from '../content/home.md';
 
 import styles from '../styles/home.less';
@@ -102,6 +102,7 @@ class Home extends React.Component {
           {this.renderAbout()}
           <Footer id="contact" />
         </div>
+        <CookieBanner />
       </div>
     );
   }
