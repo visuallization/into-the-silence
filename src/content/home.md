@@ -7,11 +7,8 @@ section1:
   author: Lars Muhl
   link: nature
   quote: >-
-    Listening to the silence... 
-
-
-    The sure way back to the Holy of Holies, the bridge to the Plane of Unity,
-    God.
+    Listening to the silence... The sure way back to the Holy of Holies, the
+    bridge to the Plane of Unity, God.
   text: >-
     _in der Freude an der eigenen Lebendigkeit, im Glück, sich selbst wieder
     spüren zu können, in der Fülle._
