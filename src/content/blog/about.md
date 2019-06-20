@@ -72,8 +72,6 @@ content:
       feiern, zu heilen und zu teilen, was immer ist, was immer sich zeigt.
 
 
-
-
       Aktuelle Literatur: 
 
 
@@ -116,8 +114,6 @@ content:
       Achtsamkeitspraxis, wie sie die buddhistische, sufistische und andere
       Traditionen seit langem kennen, uns Menschen auch und gerade jetzt gut
       tut, gibt es.
-
-
 
 
       breathe!
@@ -217,6 +213,8 @@ content:
 
 
       entscheide dich zu tanzen!
+
+
 
 
       Aus: Ich hörte Gott lachen, Entscheide dich zu tanzen, 
