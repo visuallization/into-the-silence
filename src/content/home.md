@@ -38,7 +38,7 @@ section3:
   image: /static/img/img_1856.jpg
   link: vividness
   text: >-
-    _Wieder verbunden, mit der Quelle tief in uns Selbst mit der Natur, mit den
+    _Wieder verbunden, mit der Quelle tief in uns selbst, mit der Natur, mit den
     Menschen, mit allem, was ist_
 
 
