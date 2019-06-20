@@ -1,5 +1,7 @@
 # into the silence
 
-This is a website.
+https://www.in-die-stille-gehen.at/
 
-Made with Next.js, React, Typescript, Less & Netflify CMS.
+This is the website of my mother's project.
+
+Made with ❤, Next.js, React, Typescript, Less & Netflify CMS.
