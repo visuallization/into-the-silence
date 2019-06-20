@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
 import styles from './styles.less';
 
@@ -21,7 +22,7 @@ class Quote extends React.Component<IQuoteProps, {}> {
 
     return (
       <blockquote className={`${styles.quote} ${className}`} cite={cite}>
-        <p>"{text}"</p>
+        <ReactMarkdown source={text} />
         {this.renderAuthor()}
       </blockquote>
     );

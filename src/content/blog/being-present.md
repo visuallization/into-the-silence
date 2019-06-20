@@ -45,11 +45,17 @@ content:
   - author: Eckhart Tolle
     quote: |-
       look at a tree,
+
       stillness surrounds the tree
       allow the tree to teach you stillness
+      
       look at the sky, 
-      allow the sky to teach you stillness,
+      allow the sky 
+      
+      to teach you stillness,
+      
       stillness is spaceousness, 
+      
       it is the presence within you.
     type: quote
   - text: >-
