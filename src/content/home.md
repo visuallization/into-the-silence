@@ -100,7 +100,7 @@ methods:
       Authentic Movement.
     image: /static/img/authentic_movement.jpg
     link: movement
-    name: Achtsames Bewegen Authentic Movement
+    name: Achtsames Bewegen
   - description: >
       Es ist ein Glück, zusammen mit der Musik im Körper, auf dem Boden dieser
       Erde und zusammen mit den anderen wunderbaren Mittänzerinnen und Tänzern

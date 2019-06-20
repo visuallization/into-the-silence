@@ -122,7 +122,7 @@ class Home extends React.Component {
     return (
       <div id="methods" className={styles.methodsContainer}>
         <div className={styles.content}>
-          <h2>Methoden</h2>
+          <h2>Methoden & Inspirationen</h2>
           <ul className={`${styles.methods}`}>{items}</ul>
         </div>
       </div>
