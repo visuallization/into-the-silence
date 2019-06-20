@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import smoothscroll from 'smoothscroll-polyfill';
 
 import { Hamburger } from '../';
 
@@ -51,6 +52,8 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
   componentDidMount() {
     window.addEventListener('scroll', this.setMenuPosition);
     window.addEventListener('resize', this.onResize);
+
+    smoothscroll.polyfill();
   }
 
   componentWillUnmount() {
@@ -150,9 +153,9 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
   setMenuPosition = () => {
     const { position } = this.state;
 
-    if (window.scrollY > window.innerHeight && position === POSITION.ABSOLUTE) {
+    if (window.pageYOffset > window.innerHeight && position === POSITION.ABSOLUTE) {
       this.setState({ position: POSITION.SHOW });
-    } else if (window.scrollY <= window.innerHeight && position === POSITION.SHOW) {
+    } else if (window.pageYOffset <= window.innerHeight && position === POSITION.SHOW) {
       this.setState(
         { position: POSITION.HIDE },
         () => {
