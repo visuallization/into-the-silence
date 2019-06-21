@@ -127,18 +127,20 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
     const { scrollOnClick } = this.props;
     const element = e.currentTarget;
 
-    if (element.tagName === 'A') {
-      const href = element.getAttribute('href') || '';
+    if (element.tagName === 'A' && scrollOnClick) {
+      e.preventDefault();
+      e.stopPropagation();
 
-      if (scrollOnClick) {
-        e.preventDefault();
-        e.stopPropagation();
+      // strip "/" as it gets added by default on next export
+      const id = (element.getAttribute('href') || '').replace('/', '');
+      const scrollToElement = document.querySelector(id) as HTMLElement;
+      const scrollOffset = 40;
 
-        // strip "/" as it gets added by default on next export
-        (document.querySelector(href.replace('/', '')) as HTMLElement).scrollIntoView({
-          behavior: 'smooth',
-        });
-      }
+      window.scrollTo({
+        top: scrollToElement.offsetTop - scrollOffset,
+        left: 0,
+        behavior: 'smooth',
+      });
     }
 
     this.showMobileItems(false);
