@@ -32,7 +32,7 @@ class CustomDocument extends Document {
                 dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
                 function gtag() {window.dataLayer.push(arguments)}
                 gtag('js', new Date());
-                gtag('config', 'UA-141715784-1');`}}
+                gtag('config', 'UA-141715784-1', { 'anonymize_ip': true });`}}
               />
             </>
           )}
