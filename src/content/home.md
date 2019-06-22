@@ -2,10 +2,10 @@
 hero:
   image: /static/img/lake.jpg
   subtitle: >-
-    In die eigene Lebendigkeit     individuelle Begleitung für Zeiten der
-    Sammlung und Ruhe    Achtsamkeits zur Unterstützung der eigenen
-    Lebendigkeit, der Wertschätzung des Lebens in uns und um uns herum   
-    Terminvereinbarung via mail
+    individuelle Begleitung für Zeiten der Sammlung und Ruhe   -  
+    Achtsamkeitspraxis zur Unterstützung der eigenen Lebendigkeit, der
+    Wertschätzung des Lebens in uns und um uns herum  -   Terminvereinbarung via
+    mail
   title: In die Stille gehen
 section1:
   author: Lars Muhl
