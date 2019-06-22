@@ -1,3 +1,5 @@
+@import '../../styles/main.less';
+
 .menu {
   top: 0;
   width: 100%;
@@ -5,12 +7,12 @@
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #fff;
 
   z-index: 100;
 
   a {
-    color: #FFFFFF;
+    color: #fff;
     text-decoration: none;
   }
 }
@@ -21,19 +23,19 @@
 
 .hide {
   position: fixed;
-  background: #FFFFFF;
+  background: #fff;
   animation: slideOut 0.2s forwards;
 }
 
 .show {
   position: fixed;
-  background: #FFFFFF;
+  background: #fff;
   animation: slideIn 0.2s;
 
-  color: #EA2E49;
+  color: @primary;
 
   a {
-    color: #EA2E49;
+    color: @primary;
   }
 }
 
@@ -69,7 +71,7 @@
   }
 }
 
-@media only screen and (max-width: 1046px) {
+@media only screen and (max-width: @desktop) {
   .mobileMenu {
     display: flex;
   }
@@ -101,7 +103,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000000;
+    background-color: #000;
   }
 
   .open {

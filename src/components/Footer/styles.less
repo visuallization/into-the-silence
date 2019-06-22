@@ -1,9 +1,11 @@
+@import '../../styles/main.less';
+
 @footerPaddingTop: 15px;
 @footerPaddingLeft: 25px;
 
 .footer {
-  color: #EA2E49;
-  background-color: #ECEAE6;
+  color: @primary;
+  background-color: @secondary;
   letter-spacing: 1px;
 
   .content {
@@ -30,7 +32,7 @@
   }
 }
 
-@media only screen and (max-width: 1046px) {
+@media only screen and (max-width: @desktop) {
   .footer {  
     .content {
       justify-content: flex-start;

@@ -1,3 +1,5 @@
+@import '../../styles/main.less';
+
 @menuHeightOnDesktop: 78px;
 @menuHeightOnMobile: 69px;
 
@@ -5,17 +7,17 @@
 @contentPaddingLeft: 25px;
 
 .contentTemplate {
-  background-color: #FFFFFF;
-  color: #2F2F2F;
+  background-color: #fff;
+  color: #2f2f2f;
 }
 
 .menu {
-  background-color: #FFFFFF;
+  background-color: #fff;
 
-  color: #EA2E49;
+  color: @primary;
 
   a {
-    color: #EA2E49;
+    color: @primary;
   }
 }
 
@@ -68,13 +70,13 @@
   margin: 80px 0 80px auto;
 }
 
-@media only screen and (max-width: 1046px) {
+@media only screen and (max-width: @desktop) {
   .content {
     margin: @menuHeightOnMobile auto 0 auto;
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: @mobile) {
   .content {
     padding: 30px @contentPaddingLeft;
     font-size: 16px;

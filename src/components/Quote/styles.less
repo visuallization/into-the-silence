@@ -1,5 +1,7 @@
+@import '../../styles/main.less';
+
 .quote {
-  color: #EA2E49;
+  color: @primary;
   margin: 20px 0;
 
   font-family: 'Work Sans', sans-serif;
@@ -17,7 +19,7 @@
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: @mobile) {
   .quote {
     p {
       font-size: 36px;
