@@ -14,6 +14,7 @@ class CustomDocument extends Document {
         <Head>
           <link rel="stylesheet" href="/static/styles/normalize.css" />
           <link rel="stylesheet" href="/static/styles/main.css" />
+          <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
           { process.env.NODE_ENV === 'production' && (
             <>
               <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141715784-1"/>
