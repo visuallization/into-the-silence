@@ -26,7 +26,9 @@ class Footer extends React.Component<IFooterProps, {}>{
               </Link>
             </li>
             <li>
-              <Link href="/legal-notice-and-data-privacy"><a>Impressum & Datenschutz</a></Link>
+              <Link href="/content?id=legal-notice-and-data-privacy">
+                <a>Impressum & Datenschutz</a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -5,7 +5,7 @@ hero:
   title: In die Stille gehen
 section1:
   author: Lars Muhl
-  link: nature
+  link: content?id=nature
   quote: >-
     Listening to the silence... The sure way back to the Holy of Holies, the
     bridge to the Plane of Unity, God.
@@ -24,7 +24,7 @@ section1:
     ist das Gehen durch die Natur, zu zweit, im Gespräch.
   title: In der eigenen und umgebenden Natur ankommen
 section2:
-  link: being-present
+  link: content?id=being-present
   text: >-
     _Mit allen Sinnen wahrnehmen und fühlen was ist._
 
@@ -36,7 +36,7 @@ section2:
   title: being present
 section3:
   image: /static/img/img_1856.jpg
-  link: vividness
+  link: content?id=vividness
   text: >-
     _Wieder verbunden, mit der Quelle tief in uns selbst, mit der Natur, mit den
     Menschen, mit allem, was ist_
@@ -52,7 +52,7 @@ section3:
     entdeckt sein wollen.
   title: 'In die Lebendigkeit, in die Natur'
 section4:
-  link: stillness
+  link: content?id=stillness
   text: >-
     _Stille ist jener Ort, an dem wir mit dem All Einen wieder in Kontakt kommen
     manchmal deutlicher, manchmal weniger deutlich_
@@ -84,7 +84,7 @@ methods:
       anderen, mit der Welt.
 
     image: /static/img/forest_walking.jpg
-    link: listening
+    link: content?id=listening
     name: 'Achtsames Sprechen, und Hören'
   - description: >+
       Es ist eine wunderbare Möglichkeit, um aus dem oft endlosen Strom der
@@ -92,21 +92,21 @@ methods:
       anzukommen - vollkommen präsent zu sein.
 
     image: /static/img/walking.jpg
-    link: walking
+    link: content?id=walking
     name: Achstames Gehen
   - description: >
       Eine schöne Art, die innere Bewegung im Außen sichtbar zu machen, diesen
       Prozess achtsam wahr zu nehmen und zu begleiten, bietet das Format von
       Authentic Movement.
     image: /static/img/authentic_movement.jpg
-    link: movement
+    link: content?id=movement
     name: Achtsames Bewegen
   - description: >
       Es ist ein Glück, zusammen mit der Musik im Körper, auf dem Boden dieser
       Erde und zusammen mit den anderen wunderbaren Mittänzerinnen und Tänzern
       zu sein, dass es dafür im Grunde keine Worte gibt!
     image: /static/img/circle_dance.jpg
-    link: dancing
+    link: content?id=dancing
     name: Tanzen & Kreistänze
   - description: >
       Gemeinsames Singen einfacher Lieder und Mantren ist immer wieder
@@ -114,7 +114,7 @@ methods:
       den Einen Augenblick, in das Verbunden Sein mit sich selbst und den
       anderen.
     image: /static/img/singing.jpg
-    link: singing
+    link: content?id=singing
     name: Heilsames Singen
   - description: >+
       Kleine Rituale zur Reinigung können das Bewusstmachen unterstützen und die
@@ -122,7 +122,7 @@ methods:
       aktiv in das eigene Leben, in den Moment einladen.
 
     image: /static/img/lake.jpg
-    link: rituals
+    link: content?id=rituals
     name: 'Archaisches Wissen, lebendige Flamme'
 section5:
   author: Eckhart Tolle
@@ -132,7 +132,7 @@ section5:
     was du schon bist – mit oder ohne Schmerzköper
 about:
   image: /static/img/img_0529.jpg
-  link: about
+  link: content?id=about
   text: >-
     _Als erstes von drei Kindern bin ich mit meinen Geschwistern mitten in Wien
     aufgewachsen_. 
