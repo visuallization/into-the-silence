@@ -116,7 +116,7 @@ class Home extends React.Component {
         <div className={styles.image} style={{ backgroundImage: `url('${method.image}')` }}/>
         <h3>{method.name}</h3>
         <p>{method.description}</p>
-        <Link href={method.link}><a>mehr</a></Link>
+        <Link href={`content?id=${method.link}`}><a>mehr</a></Link>
       </li>
     ));
 
