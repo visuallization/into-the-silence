@@ -18,23 +18,15 @@ class ContentBlock extends React.Component<IContentBlockProps, {}> {
   };
 
   render() {
-    const { className, text, link } = this.props;
+    const { className, heading, text, link } = this.props;
 
     return (
       <div className={`${styles.contenBlock} ${className}`}>
-        {this.renderHeading()}
+        {heading && <h2>{heading}</h2>}
         <ReactMarkdown source={text}/>
-        <Link href={link}><a>mehr</a></Link>
+        {link && <Link href={link}><a>mehr</a></Link>}
       </div>
     );
-  }
-
-  renderHeading = () => {
-    const { heading } = this.props;
-    if (heading) {
-      return <h2>{heading}</h2>;
-    }
-    return null;
   }
 }
 

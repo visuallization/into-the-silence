@@ -30,7 +30,7 @@ const menuItems = [
 
 class Home extends React.Component {
   render() {
-    const { attributes: { hero, section1, section2, section3, section4, section5 } } = content;
+    const { attributes: { hero, section0, section1, section2, section3, section4, section5 } } = content;
 
     return (
       <div id="home" className={styles.home}>
@@ -41,6 +41,16 @@ class Home extends React.Component {
           subtitle={hero.subtitle}
         />
         <div>
+          <div className={`${styles.section} ${styles.section0}`}>
+            <div className={styles.content}>
+              <ContentBlock
+                className={styles.contentBlock}
+                heading={section0.title}
+                text={section0.text}
+                link={section0.link}
+              />
+            </div>
+          </div>
           <div className={`${styles.section} ${styles.section1} ${styles.content}`}>
             <Quote
               className={styles.quote}
