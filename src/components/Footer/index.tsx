@@ -4,18 +4,20 @@ import Link from 'next/link';
 import styles from './styles.less';
 
 interface IFooterProps {
+  className?: string;
   id?: string;
 }
 
 class Footer extends React.Component<IFooterProps, {}>{
   static defaultProps = {
+    className: '',
     id: '',
   };
 
   render() {
-    const { id } = this.props;
+    const { className, id } = this.props;
     return (
-      <div id={id} className={styles.footer}>
+      <div id={id} className={`${styles.footer} ${className}`}>
         <div className={styles.content}>
           <ul>
             <li>Mag<sup>a</sup>. Heidrun Rieger</li>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { withRouter } from 'next/router';
 
+import Error from './_error';
 import { ContentTemplate } from '../components';
 import * as content from '../content';
 
@@ -11,13 +12,15 @@ interface IContentProps {
 class Content extends React.Component<IContentProps, {}> {
   render() {
     const { id } = this.props.router.query;
+    // @ts-ignore
+    const page = id && content[id.replace(/-/g, '')];
 
-    if (id) {
-      // @ts-ignore
-      const { attributes } = content[this.props.router.query.id.replace(/-/g, '')] || {};
+    if (page) {
+      const { attributes } = page;
       return <ContentTemplate {...attributes} />;
     }
-    return <div>This Page could not be found</div>;
+
+    return <Error />;
   }
 }
 
