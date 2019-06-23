@@ -3,6 +3,16 @@ hero:
   image: /static/img/lake.jpg
   subtitle: In die eigene Lebendigkeit
   title: In die Stille gehen
+section0:
+  text: >-
+    Individuelle Begleitung für Zeiten der Sammlung und Ruhe.
+
+
+    Achtsamkeitspraxis zur Unterstützung der eigenen Lebendigkeit, der Wertschätzung des Lebens in uns und um uns herum.
+
+
+    Terminvereinbarung via [Mail](mailto:kontakt@in-die-stille-gehen.at).
+  title: Ein Angebot zu mehr Ruhe und Lebendigkeit
 section1:
   author: Lars Muhl
   link: nature

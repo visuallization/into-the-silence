@@ -27,6 +27,13 @@ collections:
                     multiple: true
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - label: "Section 0"
+            name: "section0"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "markdown", buttons: [bold, italic, link, heading-two, bulleted-list, numbered-list] }
+              - { label: "More Link", name: "link", widget: "relation", collection: "blog", searchFields: ["name"], valueField: "name", required: false }
           - label: "Section 1"
             name: "section1"
             widget: "object"
