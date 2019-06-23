@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import { CookieBanner, ContentBlock, Footer, HeroImage, Menu, Quote } from '../components';
 import content from '../content/home.md';
@@ -125,7 +126,7 @@ class Home extends React.Component {
         <div className={styles.image} style={{ backgroundImage: `url('${method.image}')` }}/>
         <h3>{method.name}</h3>
         <p>{method.description}</p>
-        <a href={method.link}>mehr</a>
+        <Link href={`content?id=${method.link}`}><a>mehr</a></Link>
       </li>
     ));
 

@@ -24,7 +24,7 @@ class ContentBlock extends React.Component<IContentBlockProps, {}> {
       <div className={`${styles.contenBlock} ${className}`}>
         {heading && <h2>{heading}</h2>}
         <ReactMarkdown source={text}/>
-        {link && <Link href={link}><a>mehr</a></Link>}
+        {link && <Link href={`content?id=${link}`}><a>mehr</a></Link>}
       </div>
     );
   }

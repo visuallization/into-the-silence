@@ -31,7 +31,7 @@ class CookieBanner extends React.Component<{}, ICookieBannerState> {
           Diese Seite verwendet Cookies.
           Durch die Nutzung dieser Seite sind Sie mit der Verwendung von Cookies einverstanden.
           &nbsp;
-          <Link href="/legal-notice-and-data-privacy"><a>Mehr Infos</a></Link>
+          <Link href="/content?id=legal-notice-and-data-privacy"><a>Mehr Infos</a></Link>
           <Button className={styles.button} onClick={this.close} />
         </div>
       );
