@@ -31,7 +31,9 @@ const menuItems = [
 
 class Home extends React.Component {
   render() {
-    const { attributes: { hero, section0, section1, section2, section3, section4, section5 } } = content;
+    const {
+      attributes: { hero, section0, section1, section2, section3, section4, section5 },
+    } = content;
 
     return (
       <div id="home" className={styles.home}>
