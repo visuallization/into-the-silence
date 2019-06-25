@@ -1,5 +1,6 @@
 export const home: string;
 export const content: string;
+export const hero: string;
 export const section0: string;
 export const contentBlock: string;
 export const section1: string;

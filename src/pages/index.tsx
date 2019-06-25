@@ -42,6 +42,7 @@ class Home extends React.Component {
           src={hero.image}
           title={hero.title}
           subtitle={hero.subtitle}
+          className={styles.hero}
         />
         <div>
           <div className={`${styles.section} ${styles.section0}`}>
