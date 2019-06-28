@@ -5,7 +5,7 @@ intro: ''
 image: /static/img/lake.jpg
 content:
   - text: >-
-      ## in die Natur
+      ## In die Natur
 
 
       Die Natur ist für mich eine Quelle unerschöpflicher Schönheit und
@@ -31,7 +31,7 @@ content:
       Leben Tod Leben, ewiges Werden und Vergehen und wieder neu geboren werden
 
 
-      ## in die eigene innere Natur
+      ## In die eigene innere Natur
 
 
       vielschichtig, komplex, wo Erzählbares und scheinbar Unaussprechliches
