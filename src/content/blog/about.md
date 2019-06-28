@@ -156,12 +156,7 @@ content:
       * Jack Kornfield: the wisdom oft he heart
 
 
-
-
       ## GEDICHTE
-
-
-      …
 
 
       Kehr ein, mein Liebes,
@@ -176,14 +171,12 @@ content:
       auf dein zartes Gesicht
 
 
-      …
 
 
       \- Aus: Ich hörte Gott lachen, Gemeinschaft mit jemanden, der Gott küssen
       kann,  Hafiz/Ladinsky -
 
 
-      …
 
 
       Fahr damit fort, Sonnentropfen
