@@ -4,12 +4,6 @@ title: Über mich und meine Lehrer
 intro: ''
 image: ''
 content:
-  - author: Essener Erinnerungen
-    quote: >-
-      Das Licht lässt sich nicht in eine Institution einschliessen oder auf
-      einen Thron setzen. Es ist ein Hauch, ein Hauch des Lebens, der sich
-      unaufhörlich verströmt und erneuert...
-    type: quote
   - text: >-
       Ich studierte Pädagogik und Sonder-Heilpädagogik an der Uni Wien bei
       inspirierenden Menschen wie Dr. Kos Robes und Emma Plank, die das Feuer
@@ -76,8 +70,14 @@ content:
       Es ist wie ein Blumenstrauß, bunt und vielfältig wie das Leben selbst, es
       sind verschiedenste Formen und Ausdrucksmöglichkeiten, das Leben zu
       feiern, zu heilen und zu teilen, was immer ist, was immer sich zeigt.
-
-
+    type: text
+  - author: Essener Erinnerungen
+    quote: >-
+      Das Licht lässt sich nicht in eine Institution einschliessen oder auf
+      einen Thron setzen. Es ist ein Hauch, ein Hauch des Lebens, der sich
+      unaufhörlich verströmt und erneuert...
+    type: quote
+  - text: >-
       Aktuelle Literatur: 
 
 
@@ -137,8 +137,6 @@ content:
       Saki Lee, Retreat Vienna 2019
 
 
-
-
       Große Inspiration in ihren Vorträgen, Büchern, Gedichten und Seminaren
       sind mir:
 
@@ -165,8 +163,6 @@ content:
 
 
       Jack Kornfield: the wisdom oft he heart
-
-
 
 
       GEDICHTE
@@ -219,8 +215,6 @@ content:
 
 
       entscheide dich zu tanzen!
-
-
 
 
       Aus: Ich hörte Gott lachen, Entscheide dich zu tanzen, 
