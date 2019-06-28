@@ -171,12 +171,8 @@ content:
       auf dein zartes Gesicht...
 
 
-
-
-      \- Aus: Ich hörte Gott lachen, Gemeinschaft mit jemanden, der Gott küssen
-      kann,  Hafiz/Ladinsky -
-
-
+      **\- Ich hörte Gott lachen, Gemeinschaft mit jemanden, der Gott küssen
+      kann,  Hafiz/Ladinsky -**
 
 
       ...Fahr damit fort, Sonnentropfen
@@ -203,9 +199,7 @@ content:
       entscheide dich zu tanzen!
 
 
-
-
-      \- Aus: Ich hörte Gott lachen, Entscheide dich zu tanzen, Hafiz/Ladinsky -
+      **\- Ich hörte Gott lachen, Entscheide dich zu tanzen, Hafiz/Ladinsky -**
     type: text
 ---
 
