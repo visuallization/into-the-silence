@@ -120,23 +120,18 @@ content:
       Achtsamkeitspraxis, wie sie die buddhistische, sufistische und andere
       Traditionen seit langem kennen, uns Menschen auch und gerade jetzt gut
       tut, gibt es.
-
-
+    type: text
+  - author: Saki Lee
+    quote: |-
       breathe!
-
 
       Don`t waste a single breath
 
-
       Don´t take it for granted
 
-
       We don´t know, how much is left
-
-
-      Saki Lee, Retreat Vienna 2019
-
-
+    type: quote
+  - text: >-
       Große Inspiration in ihren Vorträgen, Büchern, Gedichten und Seminaren
       sind mir:
 
