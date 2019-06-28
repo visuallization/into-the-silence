@@ -159,47 +159,47 @@ content:
       ## GEDICHTE
 
 
-      ...Kehr ein, mein Liebes,
+      _"...Kehr ein, mein Liebes,_
 
 
-      Aus dieser rauen Welt,
+      _Aus dieser rauen Welt,_
 
 
-      die Steinsplitter prasseln ließ
+      _die Steinsplitter prasseln ließ_
 
 
-      auf dein zartes Gesicht...
+      _auf dein zartes Gesicht..."_
 
 
-      **\- Ich hörte Gott lachen, Gemeinschaft mit jemanden, der Gott küssen
-      kann,  Hafiz/Ladinsky -**
+      \- Ich hörte Gott lachen, Gemeinschaft mit jemanden, der Gott küssen
+      kann,  Hafiz/Ladinsky -
 
 
-      ...Fahr damit fort, Sonnentropfen
+      _"...Fahr damit fort, Sonnentropfen_
 
 
-      Aus deinen Gebeten, aus deiner Arbeit und Musik
+      _Aus deinen Gebeten, aus deiner Arbeit und Musik_
 
 
-      Und aus den schönen Liedern deiner Gefährten zu filtern
+      _Und aus den schönen Liedern deiner Gefährten zu filtern_
 
 
-      Und aus den unbedeutendsten Regungen
+      _Und aus den unbedeutendsten Regungen_
 
 
-      Deines eigenen heiligen Körpers
+      _Deines eigenen heiligen Körpers_
 
 
-      Sei jetzt weise,
+      _Sei jetzt weise,_
 
 
-      mein liebes Herz,
+      _mein liebes Herz,_
 
 
-      entscheide dich zu tanzen!
+      _entscheide dich zu tanzen!"_
 
 
-      **\- Ich hörte Gott lachen, Entscheide dich zu tanzen, Hafiz/Ladinsky -**
+      \- Ich hörte Gott lachen, Entscheide dich zu tanzen, Hafiz/Ladinsky -
     type: text
 ---
 
