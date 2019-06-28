@@ -81,7 +81,7 @@ content:
       und erneuert...
     type: quote
   - text: >-
-      Aktuelle Literatur: 
+      ## Aktuelle Literatur: 
 
 
       Meine zwei wunderbaren Söhne haben mich darauf aufmerksam gemacht, dass
@@ -154,6 +154,8 @@ content:
       * Hafiz, Daniel Ladinsky: ich hörte Gott lachen
 
       * Jack Kornfield: the wisdom oft he heart
+
+
 
 
 
