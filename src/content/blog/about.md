@@ -126,7 +126,7 @@ content:
     type: text
   - author: Saki Lee
     quote: |-
-      breathe!
+      Breathe!
 
       Don`t waste a single breath
 
