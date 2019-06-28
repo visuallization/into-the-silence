@@ -4,6 +4,12 @@ title: Über mich und meine Lehrer
 intro: ''
 image: ''
 content:
+  - author: Essener Erinnerungen
+    quote: >-
+      Das Licht lässt sich nicht in eine Institution einschliessen oder auf
+      einen Thron setzen. Es ist ein Hauch, ein Hauch des Lebens, der sich
+      unaufhörlich verströmt und erneuert...
+    type: quote
   - text: >-
       Ich studierte Pädagogik und Sonder-Heilpädagogik an der Uni Wien bei
       inspirierenden Menschen wie Dr. Kos Robes und Emma Plank, die das Feuer
