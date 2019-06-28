@@ -159,7 +159,7 @@ content:
       ## GEDICHTE
 
 
-      Kehr ein, mein Liebes,
+      ...Kehr ein, mein Liebes,
 
 
       Aus dieser rauen Welt,
@@ -168,7 +168,7 @@ content:
       die Steinsplitter prasseln ließ
 
 
-      auf dein zartes Gesicht
+      auf dein zartes Gesicht...
 
 
 
@@ -179,7 +179,7 @@ content:
 
 
 
-      Fahr damit fort, Sonnentropfen
+      ...Fahr damit fort, Sonnentropfen
 
 
       Aus deinen Gebeten, aus deiner Arbeit und Musik
@@ -201,6 +201,8 @@ content:
 
 
       entscheide dich zu tanzen!
+
+
 
 
       \- Aus: Ich hörte Gott lachen, Entscheide dich zu tanzen, Hafiz/Ladinsky -
