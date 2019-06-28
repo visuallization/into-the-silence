@@ -139,31 +139,26 @@ content:
       sind mir:
 
 
-      Saki Lee: Gesänge und Tänze der Sufi Tradition
+      * Saki Lee: Gesänge und Tänze der Sufi Tradition
+
+      * Kiesha Crowther: aus Liebe zu Mutter Erde
+
+      * Lars Muhl: The O Manuskript, Law of light 
+
+      * Elisabeth Lesser: broken open
+
+      * Lorna Byrne: angels in my hair
+
+      * Michael Roads: durch die Augen der Liebe
+
+      * Hafiz, Daniel Ladinsky: ich hörte Gott lachen
+
+      * Jack Kornfield: the wisdom oft he heart
 
 
-      Kiesha Crowther: aus Liebe zu Mutter Erde
 
 
-      Lars Muhl: The O Manuskript, Law of light 
-
-
-      Elisabeth Lesser: broken open
-
-
-      Lorna Byrne: angels in my hair
-
-
-      Michael Roads: durch die Augen der Liebe
-
-
-      Hafiz, Daniel Ladinsky: ich hörte Gott lachen
-
-
-      Jack Kornfield: the wisdom oft he heart
-
-
-      GEDICHTE
+      ## GEDICHTE
 
 
       …
@@ -184,8 +179,8 @@ content:
       …
 
 
-      Aus: Ich hörte Gott lachen, Gemeinschaft mit jemanden, der Gott küssen
-      kann,  Hafiz/Ladinsky
+      \- Aus: Ich hörte Gott lachen, Gemeinschaft mit jemanden, der Gott küssen
+      kann,  Hafiz/Ladinsky -
 
 
       …
@@ -215,10 +210,7 @@ content:
       entscheide dich zu tanzen!
 
 
-      Aus: Ich hörte Gott lachen, Entscheide dich zu tanzen, 
-
-
-      Hafiz/Ladinsky
+      \- Aus: Ich hörte Gott lachen, Entscheide dich zu tanzen, Hafiz/Ladinsky -
     type: text
 ---
 
