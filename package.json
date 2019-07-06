@@ -19,8 +19,9 @@
     "dev": "next ./src",
     "build": "next build ./src",
     "start": "next start ./src",
-    "export": "yarn build:contentIndexFile && next build ./src && next export ./src -o ./out",
-    "build:contentIndexFile": "node scripts/generateContentIndexFile.ts" 
+    "export": "yarn build:contentIndexFile && next build ./src && next export ./src -o ./out && yarn copy:redirects",
+    "build:contentIndexFile": "node scripts/generateContentIndexFile.ts",
+    "copy:redirects": "node scripts/copyRedirectsToOut.ts"
   },
   "devDependencies": {
     "@types/next": "^8.0.4",
