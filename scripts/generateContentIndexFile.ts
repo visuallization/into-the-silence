@@ -39,7 +39,7 @@ export {
     fileContent,
     (err) => {
       if (err) {
-        return console.log('Unable to create blog index file: ', err);
+        throw err;
       }
       console.log('Sucessfully created blog index file');
     },
