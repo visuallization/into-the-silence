@@ -10,7 +10,7 @@ class CustomDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="de">
         <Head>
           <title>In die Stille gehen</title>
           <meta
