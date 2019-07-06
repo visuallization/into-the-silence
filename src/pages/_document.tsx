@@ -12,6 +12,15 @@ class CustomDocument extends Document {
     return (
       <Html>
         <Head>
+          <title>In die Stille gehen</title>
+          <meta
+            name="description"
+            content={
+              `Achtsamkeitspraxis zur Förderung innerer Ruhe und Lebendigkeit.
+              Individuelle Begleitung für Zeiten der Sammlung und Ruhe.
+              Terminvereinbarung via Mail.`
+            }
+          />
           <link rel="stylesheet" href="/static/styles/normalize.css" />
           <link rel="stylesheet" href="/static/styles/main.css" />
           <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
