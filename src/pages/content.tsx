@@ -1,7 +1,6 @@
 import React from 'react';
 import { withRouter } from 'next/router';
 
-import Error from './_error';
 import { ContentTemplate } from '../components';
 import * as content from '../content';
 
@@ -20,7 +19,7 @@ class Content extends React.Component<IContentProps, {}> {
       return <ContentTemplate {...attributes} />;
     }
 
-    return <Error />;
+    return null;
   }
 }
 
