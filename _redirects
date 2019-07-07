@@ -1,2 +1,2 @@
-/home                          /
-/content/:id                   /content id=:id                          200
+/home                        /
+/content/*                   /content?id=splat                          200
