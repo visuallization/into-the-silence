@@ -9,7 +9,7 @@
     "@zeit/next-less": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
     "less": "^3.9.0",
-    "next": "8.1.1-canary.69",
+    "next": "^8.1.1-canary.69",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-markdown": "^4.0.8",

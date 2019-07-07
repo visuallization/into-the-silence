@@ -32,7 +32,7 @@ class CookieBanner extends React.Component<{}, ICookieBannerState> {
           Durch die Nutzung dieser Seite sind Sie mit der Verwendung von Cookies einverstanden.
           &nbsp;
           <Link
-            as="/legal-notice-and-data-privacy"
+            as="content/legal-notice-and-data-privacy"
             href="/content?id=legal-notice-and-data-privacy"
           >
             <a>Mehr Infos</a>

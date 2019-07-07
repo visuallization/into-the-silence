@@ -1,13 +1,1 @@
-/home                            /
-/legal-notice-and-data-privacy   /content?id=legal-notice-and-data-privacy   200
-/content/about                   /content?id=about                           200
-/content/being-present           /content?id=being-present                   200
-/content/nature                  /content?id=nature                          200
-/content/stillness               /content?id=stillness                       200
-/content/vividness               /content?id=vividness                       200
-/methods/dancing                 /content?id=dancing                         200
-/methods/listening               /content?id=listening                       200
-/methods/movement                /content?id=movement                        200
-/methods/rituals                 /content?id=rituals                         200
-/methods/singing                 /content?id=singing                         200
-/methods/walking                 /content?id=walking                         200
+/content id=:id /content/:id 301

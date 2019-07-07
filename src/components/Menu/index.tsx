@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import smoothscroll from 'smoothscroll-polyfill';
 
 import { Hamburger } from '../';
@@ -70,14 +69,13 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
         {this.renderOverlay()}
         <div className={styles.mobileMenu}>
           <span className={styles.logo}>
-            <Link href={items[0].link}>
-              <a
-                onClick={this.closeMobileItems}
-                style={{ color: `${position === POSITION.ABSOLUTE ? logoColor : logoColorSticky}` }}
-              >
-                {items[0].name}
-              </a>
-            </Link>
+            <a
+              href={items[0].link}
+              onClick={this.closeMobileItems}
+              style={{ color: `${position === POSITION.ABSOLUTE ? logoColor : logoColorSticky}` }}
+            >
+              {items[0].name}
+            </a>
           </span>
           <Hamburger open={open} onToggle={this.showMobileItems} />
         </div>
@@ -100,7 +98,7 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
 
     const menuItems = items.map((item, i) => (
       <li key={i}>
-        <Link href={item.link}><a onClick={this.closeMobileItems}>{item.name}</a></Link>
+        <a href={item.link} onClick={this.closeMobileItems}>{item.name}</a>
       </li>
     ));
 
@@ -131,8 +129,7 @@ class Menu extends React.Component<IMenuProps, IMenuState> {
       e.preventDefault();
       e.stopPropagation();
 
-      // strip "/" as it gets added by default on next export
-      const id = (element.getAttribute('href') || '').replace('/', '');
+      const id = element.getAttribute('href') || '';
       const scrollToElement = document.querySelector(id) as HTMLElement;
       const scrollOffset = 40;
 
