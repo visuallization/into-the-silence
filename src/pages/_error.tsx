@@ -33,7 +33,7 @@ class Page extends React.Component {
     return (
       <>
         <Menu className={styles.menu} items={menuItems}/>
-        <Error statusCode={404} />
+        <Error title="Page Not found" statusCode={404} />
         <Footer className={styles.footer} />
       </>
     );
