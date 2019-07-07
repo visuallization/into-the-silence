@@ -11,6 +11,7 @@ interface IContentProps {
 class Content extends React.Component<IContentProps, {}> {
   render() {
     const { id } = this.props.router.query;
+    console.log(this.props.router);
     // @ts-ignore
     const page = id && content[id.replace(/-/g, '')];
 
