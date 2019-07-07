@@ -10,10 +10,17 @@ interface IContentProps {
 
 class Content extends React.Component<IContentProps, {}> {
   render() {
-    const { id } = this.props.router.query;
-    console.log(this.props.router);
-    // @ts-ignore
-    const page = id && content[id.replace(/-/g, '')];
+    const { router } = this.props;
+    const { id } = router.query;
+
+    let normalizedPageId = null;
+    if (id) {
+      normalizedPageId = id.replace(/-/g, '');
+    } else {
+      normalizedPageId = router.asPath.split('/').pop().replace(/-/g, '');
+    }
+
+    const page = content[normalizedPageId];
 
     if (page) {
       const { attributes } = page;
