@@ -13,8 +13,6 @@ class Content extends React.Component<IContentProps, {}> {
     const { router } = this.props;
     const { id } = router.query;
 
-    console.log(router);
-
     let normalizedPageId = null;
     if (id) {
       normalizedPageId = id.replace(/-/g, '');
@@ -24,12 +22,8 @@ class Content extends React.Component<IContentProps, {}> {
 
     const page = content[normalizedPageId];
 
-    if (page) {
-      const { attributes } = page;
-      return <ContentTemplate {...attributes} />;
-    }
-
-    return null;
+    const conentProps = page ? page.attributes : {};
+    return <ContentTemplate {...conentProps} />;
   }
 }
 
