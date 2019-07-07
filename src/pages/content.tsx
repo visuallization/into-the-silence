@@ -13,6 +13,8 @@ class Content extends React.Component<IContentProps, {}> {
     const { router } = this.props;
     const { id } = router.query;
 
+    console.log(router);
+
     let normalizedPageId = null;
     if (id) {
       normalizedPageId = id.replace(/-/g, '');
