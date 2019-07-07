@@ -9,11 +9,10 @@ import Quote from '../Quote';
 import styles from './styles.less';
 
 interface IContentTemplateProps {
-  title: string;
-  intro: string;
-  image: string;
-  text: string;
-  content: IContent[];
+  title?: string;
+  intro?: string;
+  image?: string;
+  content?: IContent[];
 }
 
 interface IContent {

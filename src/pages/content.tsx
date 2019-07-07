@@ -1,7 +1,6 @@
 import React from 'react';
 import { withRouter } from 'next/router';
 
-import Error from './_error';
 import { ContentTemplate } from '../components';
 import * as content from '../content';
 
@@ -11,16 +10,20 @@ interface IContentProps {
 
 class Content extends React.Component<IContentProps, {}> {
   render() {
-    const { id } = this.props.router.query;
-    // @ts-ignore
-    const page = id && content[id.replace(/-/g, '')];
+    const { router } = this.props;
+    const { id } = router.query;
 
-    if (page) {
-      const { attributes } = page;
-      return <ContentTemplate {...attributes} />;
+    let normalizedPageId = null;
+    if (id) {
+      normalizedPageId = id.replace(/-/g, '');
+    } else {
+      normalizedPageId = router.asPath.split('/').pop().replace(/-/g, '');
     }
 
-    return <Error />;
+    const page = content[normalizedPageId];
+
+    const conentProps = page ? page.attributes : {};
+    return <ContentTemplate {...conentProps} />;
   }
 }
 
