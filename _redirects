@@ -1,1 +1,2 @@
-/content/:id /content id=:id    301
+/home                          /
+/content/:id                   /content id=:id                          200
