@@ -21,6 +21,7 @@ class CustomDocument extends Document {
               Terminvereinbarung via Mail.`
             }
           />
+          <meta property="og:image" content="/static/img/forest_walking.jpg" />
           <link rel="stylesheet" href="/static/styles/normalize.css" />
           <link rel="stylesheet" href="/static/styles/main.css" />
           <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
